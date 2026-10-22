@@ -1,0 +1,249 @@
+{
+  "repository": "https://github.com/djalilchafai/ginibre-poincare",
+  "revision": "be028188dd8758cd9a30db1a462eaed9140856d4",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "GinibrePoincare/Analysis/AlternativeBakryEmeryGibbsGenerator.lean",
+      "sha256": "3e6861c09ab6b2fab8e4e965de5462c6730e9aa8449e3081c1c31baccde41f71"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLieb.lean",
+      "sha256": "a9a7a158e56ddbc5210d9a987cc9411abd3b2a69da691f821a8765651df7f418"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebAdjoint.lean",
+      "sha256": "830be1204ebed52e8892eee860525cb3387d9cd60cd2748489f703e59dccab62"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebBochner.lean",
+      "sha256": "372c8087118b398a01978dc4ec3715f1a617f59657248315605601c0fe4fcc11"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebBochnerIntegral.lean",
+      "sha256": "a04947f5abaaa70230467fecfe465dcc4e22137a458e09a4646ad39de0c295dd"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCenter.lean",
+      "sha256": "3cf422f1577bd7b5203d1e9a27eb204016c6982986166dd58c6cdcaafac257de"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCompactBound.lean",
+      "sha256": "f05fa597da89fc2c1d6fd0dc3c4bdd90a7920dab7a1bbaea59fbfda2e7dfa034"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCompactEnergy.lean",
+      "sha256": "beeddb0e4aef100305e5b39ddfa71a9528c00247488d30915606b5f8ebe19c3e"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebConstants.lean",
+      "sha256": "35ffdcef6ddbcfb9e4e8fdb1d61df7c0340cccc112f074d193a864bba342567f"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCore.lean",
+      "sha256": "56b077f85b9ab3cbf07310b1a043d5bd993f1cd462b6fd9e6a06d9db325371f8"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCoreDual.lean",
+      "sha256": "18af9df9368e00b6d464de92d560dda785303134b2e094e91b090d7e8e97e906"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCoreRange.lean",
+      "sha256": "595cccb06ebe150de01952f2e73a1d8321cfd52da116cb88b89a8dd2077e942f"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCutoffs.lean",
+      "sha256": "f1c30f4458b89e30d988076432f3dc31443ae7e2664a775df1a87124534d74b6"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebDense.lean",
+      "sha256": "a557b4c1c970e7b6633e4e25cf7750d1258dadd394b7f76ef2b4924f69fad8ce"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebDensityGenerator.lean",
+      "sha256": "99afe11fd1b4ff71549e3e4a715ee7a41634b36218af767c9558872362d96de6"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebDuality.lean",
+      "sha256": "95359ebcf50974f9d71c519d9c2e023f98643df01529979e9f13d0af5c3f54bf"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebGibbs.lean",
+      "sha256": "142f48af712509238305a9afbc01a9ecc9f945c4d715f1ba02e278b61731a5e1"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebHessian.lean",
+      "sha256": "bb5c3dd7910102f137d8deb07e92bd0f91233c95beaf5c6fe332796d7aaae23f"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebIntegralCS.lean",
+      "sha256": "babbd9dd20c95ed977086aa30e14f2d3cc4c50435885e225188797f4ffb97dac"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebJets.lean",
+      "sha256": "8f5de59875892d8d92247a4abe4fabe687285a288b191a06a8001aeecd2a8865"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebLinear.lean",
+      "sha256": "c994ee94450ed914bfdfa2dff258cb27183b89a5f6d2eaa8c0c5a058c40b96f9"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebMass.lean",
+      "sha256": "c6ba602d13fd49a0f60583283d5534c5a212c261cc9a37955339895572dc9997"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebMatrix.lean",
+      "sha256": "e74612e26c86a1039d4877a87dcf3d5aa0e5b53e17e294ccf88f978802ff3ceb"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticC1Tests.lean",
+      "sha256": "12969ad53f5bcaafc85c9f4e0d7543e50b59e1e47a1822afdf3042471b1cfd94"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticConvolution.lean",
+      "sha256": "344dd915674894abb8c25c5ee9c1261ff232b9010e3068665269db9c5e7c15ed"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticCutoffEnergy.lean",
+      "sha256": "5366211533299c7b262de993c72a160e5bc5d939baa946ad7e7e59b7a6c806d9"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticCutoffForm.lean",
+      "sha256": "e7ea1f6d980a0b494ee55b01216200eb475f58447f8a4b325193302a61b576fc"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticCutoffGradient.lean",
+      "sha256": "e1dd396c2d24d7c407f11757986d8f8b192bf10fcf2caaf7dadb756deb973af5"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticDensity.lean",
+      "sha256": "75e6e47929f23ddf6bbfe926110e5446ec8c7a2619e283dbd592dc53f642f0d2"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticDivision.lean",
+      "sha256": "e54f161620f9a0e78859c9bc01c5fa431a0cf65f54e9ac49435ce3ae216d69a7"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticEquation.lean",
+      "sha256": "17451984fe18a8ffeb44ec6303545aa6e13b304f66a2f1b7b6b92cc8d46cc4ac"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticFormTesting.lean",
+      "sha256": "d8c82773944578865a4093a72666faa6f6b92c9cdcfdacb44867520fa1d7ec52"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticGreen.lean",
+      "sha256": "0af33a2118a4ae943706e613e44209824ebf793df07e875baf8c06d6c51c3672"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticLiouville.lean",
+      "sha256": "5226322d63f6570aca0c2d3ae1ecb13a07f1d6085d0331f1045208b309a0e262"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticLocalSobolev.lean",
+      "sha256": "585d19f60ad14ffbb90a685f7fbb5dad6618b91125696cd76e925598b9a9b8d6"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticMollification.lean",
+      "sha256": "ac3054d99364b7f7f86c6dc5c2f3d7721dd52635ca7c1191c5957752e819bae3"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticProduct.lean",
+      "sha256": "2845e61b641f9bff269f237642a811f9f3bfd6dee2856ff49aad4dcf0664b1c7"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticReal.lean",
+      "sha256": "8cde2c2959b9d95cbe14255dade444ffe71662c73f8cd6e43f747c07acc14a1d"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticSobolevApproximation.lean",
+      "sha256": "11bf78f0669aa97698ede3629517884977817302d2f5ac2355c4aacb3b5f1b16"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticZeroGradient.lean",
+      "sha256": "8172aaa77c9376d52a5f8ec505a0cbdea718d7fa9fe69376eb285a6eb2a89918"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityBessel.lean",
+      "sha256": "dd0716072df86f1eb74ce874d4866425c25a72507714f7ba16a322c6646e14a3"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityCompactData.lean",
+      "sha256": "1b3ea20ebb91b273f54c4f0c4fbd91ac792564eac78a6e88487c36cbbed6fbd1"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityCompactTests.lean",
+      "sha256": "929632239d45544b2bb46d6fb24e78aed3ade5b8566ea5637f7b2bf0a20025ab"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityInterior.lean",
+      "sha256": "e7eabddbf8d81ca7d8fd59c57562b0bd4a9f0324e752e01ef02ab6469e1f06ea"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityLocalization.lean",
+      "sha256": "9bb41290c72e6cb37d366a81d373671bb0e3842d43223a9b8769325ae2ffe16b"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityLocalizedData.lean",
+      "sha256": "6da94dfe02772a4f8ca8ebf9ca5b7a3915b412d5a2051888946a2cbf2175be6c"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityProduct.lean",
+      "sha256": "5ff871b3a46ca6b82e0ed0a3bcc5d44645eef550d293aad3edfe1016162e230d"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRealDerivative.lean",
+      "sha256": "494b267ffe5166d47718d601206ac95776bcc4397c6aec848215e3bd3d892767"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRealIndicator.lean",
+      "sha256": "1f4a4fc55a54707f8f91fbe17b252eb4cbe48eda86b750fb97c706d8f3e3ab90"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRealTests.lean",
+      "sha256": "4319d5476ac1bcabbede83109d7d53c6e8fbed7e9f98f6326bc1a689b1812c29"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRestrictedData.lean",
+      "sha256": "389fc3e4001d5345f06f64b3cc6c2a7dc932e1bc5a59cdc4f2c88369afa23b6c"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTemperedEquation.lean",
+      "sha256": "b4c6b2bb81389e7963c52d692752d734b7032a29307adb9168f14a7ce471373f"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTestIntegrability.lean",
+      "sha256": "4515b902aaa509c7a83dbd259ff17ca72bc16f646097025a40db083d2d2d6c6e"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityWeakDerivatives.lean",
+      "sha256": "1acaa184a79e3619d2701c36aff8bfc54c684ad529e062c31a6dc495e9c3c3b9"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/LipschitzMollification.lean",
+      "sha256": "001e4534187a3f54bec75f96e7f1ecbff4d8b224d2b249e7d1fc45322b9017d9"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/WeakDerivativeMollification.lean",
+      "sha256": "555b6573b898e38c7bf8c2298deb8845ab5e1b75e280ad6a6646c0775037d773"
+    },
+    {
+      "file": "GinibrePoincare/Concrete/Configuration.lean",
+      "sha256": "fb0776669fc705c5dacd66bfbfa27a89d9d6b58fe66c6731f704f0c1ce864628"
+    }
+  ],
+  "changes": [
+    {
+      "file": "GinibrePoincare/Analysis/AlternativeBakryEmeryGibbsGenerator.lean",
+      "diff": "--- upstream/GinibrePoincare/Analysis/AlternativeBakryEmeryGibbsGenerator.lean\n+++ GinibrePoincare/Analysis/AlternativeBakryEmeryGibbsGenerator.lean\n@@ -1,6 +1,6 @@\n module\n \n-public import GinibrePoincare.Analysis.AlternativeBakryEmeryIntegrationByParts\n+public import Mathlib.Tactic\n public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts\n public import Mathlib.Analysis.Calculus.Gradient.Basic\n public import Mathlib.Analysis.InnerProductSpace.Calculus\n"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTestIntegrability.lean",
+      "diff": "--- upstream/GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTestIntegrability.lean\n+++ GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTestIntegrability.lean\n@@ -1,6 +1,6 @@\n module\n \n-public import GinibrePoincare.Analysis.GinibreLocalSobolev\n+public import Mathlib.MeasureTheory.Function.LocallyIntegrable\n \n @[expose] public section\n open MeasureTheory\n"
+    },
+    {
+      "file": "GinibrePoincare/Analysis/LipschitzMollification.lean",
+      "diff": "--- upstream/GinibrePoincare/Analysis/LipschitzMollification.lean\n+++ GinibrePoincare/Analysis/LipschitzMollification.lean\n@@ -1,6 +1,8 @@\n module\n \n-public import GinibrePoincare.Analysis.GaussianLSIProduct\n+public import Mathlib.Analysis.Calculus.BumpFunction.Convolution\n+public import Mathlib.Analysis.Calculus.BumpFunction.Normed\n+public import Mathlib.Tactic\n public import Mathlib.Analysis.Calculus.Rademacher\n public import Mathlib.Analysis.Calculus.ParametricIntegral\n public import Mathlib.Analysis.Calculus.FDeriv.Measurable\n"
+    }
+  ]
+}
