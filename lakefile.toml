@@ -1,0 +1,20 @@
+name = "TheoremA2"
+version = "1.0.0"
+defaultTargets = ["TheoremA2"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+
+[[lean_lib]]
+name = "TheoremA2"
+
+[[lean_lib]]
+name = "GinibrePoincare"
+
+[[lean_lib]]
+name = "BrascampLieb"
+
+[leanOptions]
+autoImplicit = false
