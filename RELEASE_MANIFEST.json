@@ -1,0 +1,2345 @@
+{
+  "release": "Complete unrestricted Theorem A.2",
+  "packaged_at_utc": "2026-10-21T22:41:03.264853+00:00",
+  "lean_version": "4.35.0-rc2",
+  "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+  "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "local_proof_modules": 146,
+  "audited_local_theorem_declarations": 1890,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_build_exit_code": 0,
+  "final_build_and_audit_exit_code": 0,
+  "all_proof_modules_identical_in_fresh_and_final_runs": true,
+  "audit_refinement": "The final run additionally enumerates private helper theorem names.",
+  "files": [
+    {
+      "path": "Audit.lean",
+      "bytes": 3514,
+      "sha256": "c01309b569b0463be6f92e3572c3c86aee7893890c66a359c50ca9a2c6197e5c"
+    },
+    {
+      "path": "BrascampLieb/BoxPenalty.lean",
+      "bytes": 6979,
+      "sha256": "98e7ddffe15deef8d696c2bffe8b30c9c06794b75098ee11640f5882bc9b80ac"
+    },
+    {
+      "path": "BrascampLieb/BoxVariance.lean",
+      "bytes": 8229,
+      "sha256": "bf229ccb7727ca2e7d1df057fab6cf48c5a6a5190a6775c676ccaafc5cd5dd5f"
+    },
+    {
+      "path": "BrascampLieb/CosineApproximation.lean",
+      "bytes": 9492,
+      "sha256": "eed652710eab6d8a09829e14690c6b04bb5fde5abf3eb2ffa3034ebdfc78da56"
+    },
+    {
+      "path": "BrascampLieb/CosineExtension.lean",
+      "bytes": 8198,
+      "sha256": "d64a85257e19d97f5c464f398ae9ed80ac4d81ec18fbcbffe91946e8d656aae2"
+    },
+    {
+      "path": "BrascampLieb/GaussianDomination.lean",
+      "bytes": 3409,
+      "sha256": "ccc0977bf0200dc64ef4d89bfdf781c13fcdcb2f6df451ec3e77113991de7e37"
+    },
+    {
+      "path": "BrascampLieb/NormalizedVariance.lean",
+      "bytes": 5691,
+      "sha256": "5f6e1d61849be5cb1be3eb8e4131c67fd05201f17fe9de37c8114b8045c0391e"
+    },
+    {
+      "path": "BrascampLieb/ScalarExtension.lean",
+      "bytes": 33,
+      "sha256": "0aaada051ba92d55a6cf1bee80e12a3ff39897a46c6b5d3376b7cfdad123cfb2"
+    },
+    {
+      "path": "BrascampLieb/SeparableHessian.lean",
+      "bytes": 7199,
+      "sha256": "0576570b3859c0396c875bde8430958389f381907f497a7af8eec8cd166f92ef"
+    },
+    {
+      "path": "BrascampLieb/WeightedLimit.lean",
+      "bytes": 13934,
+      "sha256": "d368fa2d22ec27bb48aa79491f7a9476d2637be64be8f4927f56d646670f01b0"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/AlternativeBakryEmeryGibbsGenerator.lean",
+      "bytes": 13218,
+      "sha256": "3e6861c09ab6b2fab8e4e965de5462c6730e9aa8449e3081c1c31baccde41f71"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLieb.lean",
+      "bytes": 3618,
+      "sha256": "a9a7a158e56ddbc5210d9a987cc9411abd3b2a69da691f821a8765651df7f418"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebAdjoint.lean",
+      "bytes": 5838,
+      "sha256": "830be1204ebed52e8892eee860525cb3387d9cd60cd2748489f703e59dccab62"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebBochner.lean",
+      "bytes": 3836,
+      "sha256": "372c8087118b398a01978dc4ec3715f1a617f59657248315605601c0fe4fcc11"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebBochnerIntegral.lean",
+      "bytes": 3297,
+      "sha256": "a04947f5abaaa70230467fecfe465dcc4e22137a458e09a4646ad39de0c295dd"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCenter.lean",
+      "bytes": 3277,
+      "sha256": "3cf422f1577bd7b5203d1e9a27eb204016c6982986166dd58c6cdcaafac257de"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCompactBound.lean",
+      "bytes": 4754,
+      "sha256": "f05fa597da89fc2c1d6fd0dc3c4bdd90a7920dab7a1bbaea59fbfda2e7dfa034"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCompactEnergy.lean",
+      "bytes": 3779,
+      "sha256": "beeddb0e4aef100305e5b39ddfa71a9528c00247488d30915606b5f8ebe19c3e"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebConstants.lean",
+      "bytes": 3282,
+      "sha256": "35ffdcef6ddbcfb9e4e8fdb1d61df7c0340cccc112f074d193a864bba342567f"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCore.lean",
+      "bytes": 3464,
+      "sha256": "56b077f85b9ab3cbf07310b1a043d5bd993f1cd462b6fd9e6a06d9db325371f8"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCoreDual.lean",
+      "bytes": 2302,
+      "sha256": "18af9df9368e00b6d464de92d560dda785303134b2e094e91b090d7e8e97e906"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCoreRange.lean",
+      "bytes": 3258,
+      "sha256": "595cccb06ebe150de01952f2e73a1d8321cfd52da116cb88b89a8dd2077e942f"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebCutoffs.lean",
+      "bytes": 4603,
+      "sha256": "f1c30f4458b89e30d988076432f3dc31443ae7e2664a775df1a87124534d74b6"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebDense.lean",
+      "bytes": 3777,
+      "sha256": "a557b4c1c970e7b6633e4e25cf7750d1258dadd394b7f76ef2b4924f69fad8ce"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebDensityGenerator.lean",
+      "bytes": 1570,
+      "sha256": "99afe11fd1b4ff71549e3e4a715ee7a41634b36218af767c9558872362d96de6"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebDuality.lean",
+      "bytes": 1257,
+      "sha256": "95359ebcf50974f9d71c519d9c2e023f98643df01529979e9f13d0af5c3f54bf"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebGibbs.lean",
+      "bytes": 2005,
+      "sha256": "142f48af712509238305a9afbc01a9ecc9f945c4d715f1ba02e278b61731a5e1"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebHessian.lean",
+      "bytes": 4103,
+      "sha256": "bb5c3dd7910102f137d8deb07e92bd0f91233c95beaf5c6fe332796d7aaae23f"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebIntegralCS.lean",
+      "bytes": 2968,
+      "sha256": "babbd9dd20c95ed977086aa30e14f2d3cc4c50435885e225188797f4ffb97dac"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebJets.lean",
+      "bytes": 2382,
+      "sha256": "8f5de59875892d8d92247a4abe4fabe687285a288b191a06a8001aeecd2a8865"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebLinear.lean",
+      "bytes": 2580,
+      "sha256": "c994ee94450ed914bfdfa2dff258cb27183b89a5f6d2eaa8c0c5a058c40b96f9"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebMass.lean",
+      "bytes": 1886,
+      "sha256": "c6ba602d13fd49a0f60583283d5534c5a212c261cc9a37955339895572dc9997"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceBrascampLiebMatrix.lean",
+      "bytes": 1363,
+      "sha256": "e74612e26c86a1039d4877a87dcf3d5aa0e5b53e17e294ccf88f978802ff3ceb"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticC1Tests.lean",
+      "bytes": 4686,
+      "sha256": "12969ad53f5bcaafc85c9f4e0d7543e50b59e1e47a1822afdf3042471b1cfd94"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticConvolution.lean",
+      "bytes": 6519,
+      "sha256": "344dd915674894abb8c25c5ee9c1261ff232b9010e3068665269db9c5e7c15ed"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticCutoffEnergy.lean",
+      "bytes": 4799,
+      "sha256": "5366211533299c7b262de993c72a160e5bc5d939baa946ad7e7e59b7a6c806d9"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticCutoffForm.lean",
+      "bytes": 5210,
+      "sha256": "e7ea1f6d980a0b494ee55b01216200eb475f58447f8a4b325193302a61b576fc"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticCutoffGradient.lean",
+      "bytes": 2613,
+      "sha256": "e1dd396c2d24d7c407f11757986d8f8b192bf10fcf2caaf7dadb756deb973af5"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticDensity.lean",
+      "bytes": 5438,
+      "sha256": "75e6e47929f23ddf6bbfe926110e5446ec8c7a2619e283dbd592dc53f642f0d2"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticDivision.lean",
+      "bytes": 2741,
+      "sha256": "e54f161620f9a0e78859c9bc01c5fa431a0cf65f54e9ac49435ce3ae216d69a7"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticEquation.lean",
+      "bytes": 4105,
+      "sha256": "17451984fe18a8ffeb44ec6303545aa6e13b304f66a2f1b7b6b92cc8d46cc4ac"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticFormTesting.lean",
+      "bytes": 3121,
+      "sha256": "d8c82773944578865a4093a72666faa6f6b92c9cdcfdacb44867520fa1d7ec52"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticGreen.lean",
+      "bytes": 4100,
+      "sha256": "0af33a2118a4ae943706e613e44209824ebf793df07e875baf8c06d6c51c3672"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticLiouville.lean",
+      "bytes": 6478,
+      "sha256": "5226322d63f6570aca0c2d3ae1ecb13a07f1d6085d0331f1045208b309a0e262"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticLocalSobolev.lean",
+      "bytes": 3684,
+      "sha256": "585d19f60ad14ffbb90a685f7fbb5dad6618b91125696cd76e925598b9a9b8d6"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticMollification.lean",
+      "bytes": 8775,
+      "sha256": "ac3054d99364b7f7f86c6dc5c2f3d7721dd52635ca7c1191c5957752e819bae3"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticProduct.lean",
+      "bytes": 3923,
+      "sha256": "2845e61b641f9bff269f237642a811f9f3bfd6dee2856ff49aad4dcf0664b1c7"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticReal.lean",
+      "bytes": 3669,
+      "sha256": "8cde2c2959b9d95cbe14255dade444ffe71662c73f8cd6e43f747c07acc14a1d"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticSobolevApproximation.lean",
+      "bytes": 3900,
+      "sha256": "11bf78f0669aa97698ede3629517884977817302d2f5ac2355c4aacb3b5f1b16"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CorrespondenceWeightedEllipticZeroGradient.lean",
+      "bytes": 2504,
+      "sha256": "8172aaa77c9376d52a5f8ec505a0cbdea718d7fa9fe69376eb285a6eb2a89918"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityBessel.lean",
+      "bytes": 3518,
+      "sha256": "dd0716072df86f1eb74ce874d4866425c25a72507714f7ba16a322c6646e14a3"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityCompactData.lean",
+      "bytes": 2110,
+      "sha256": "1b3ea20ebb91b273f54c4f0c4fbd91ac792564eac78a6e88487c36cbbed6fbd1"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityCompactTests.lean",
+      "bytes": 4244,
+      "sha256": "929632239d45544b2bb46d6fb24e78aed3ade5b8566ea5637f7b2bf0a20025ab"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityInterior.lean",
+      "bytes": 1479,
+      "sha256": "e7eabddbf8d81ca7d8fd59c57562b0bd4a9f0324e752e01ef02ab6469e1f06ea"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityLocalization.lean",
+      "bytes": 6541,
+      "sha256": "9bb41290c72e6cb37d366a81d373671bb0e3842d43223a9b8769325ae2ffe16b"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityLocalizedData.lean",
+      "bytes": 4930,
+      "sha256": "6da94dfe02772a4f8ca8ebf9ca5b7a3915b412d5a2051888946a2cbf2175be6c"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityProduct.lean",
+      "bytes": 5624,
+      "sha256": "5ff871b3a46ca6b82e0ed0a3bcc5d44645eef550d293aad3edfe1016162e230d"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRealDerivative.lean",
+      "bytes": 2752,
+      "sha256": "494b267ffe5166d47718d601206ac95776bcc4397c6aec848215e3bd3d892767"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRealIndicator.lean",
+      "bytes": 2239,
+      "sha256": "1f4a4fc55a54707f8f91fbe17b252eb4cbe48eda86b750fb97c706d8f3e3ab90"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRealTests.lean",
+      "bytes": 4566,
+      "sha256": "4319d5476ac1bcabbede83109d7d53c6e8fbed7e9f98f6326bc1a689b1812c29"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityRestrictedData.lean",
+      "bytes": 3752,
+      "sha256": "389fc3e4001d5345f06f64b3cc6c2a7dc932e1bc5a59cdc4f2c88369afa23b6c"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTemperedEquation.lean",
+      "bytes": 2885,
+      "sha256": "b4c6b2bb81389e7963c52d692752d734b7032a29307adb9168f14a7ce471373f"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityTestIntegrability.lean",
+      "bytes": 1154,
+      "sha256": "4515b902aaa509c7a83dbd259ff17ca72bc16f646097025a40db083d2d2d6c6e"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreTransitionAnalyticLocalRegularityWeakDerivatives.lean",
+      "bytes": 2167,
+      "sha256": "1acaa184a79e3619d2701c36aff8bfc54c684ad529e062c31a6dc495e9c3c3b9"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/LipschitzMollification.lean",
+      "bytes": 6329,
+      "sha256": "001e4534187a3f54bec75f96e7f1ecbff4d8b224d2b249e7d1fc45322b9017d9"
+    },
+    {
+      "path": "GinibrePoincare/Analysis/WeakDerivativeMollification.lean",
+      "bytes": 3499,
+      "sha256": "555b6573b898e38c7bf8c2298deb8845ab5e1b75e280ad6a6646c0775037d773"
+    },
+    {
+      "path": "GinibrePoincare/Concrete/Configuration.lean",
+      "bytes": 2724,
+      "sha256": "fb0776669fc705c5dacd66bfbfa27a89d9d6b58fe66c6731f704f0c1ce864628"
+    },
+    {
+      "path": "PROOF_GUIDE.md",
+      "bytes": 13076,
+      "sha256": "f57a820ae143eccd71f96567e608c45ccc3fb011c1b05a19fb41ef98d671fc5c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5621,
+      "sha256": "2ee4f855697d326f73fbdb29b2f69d2e5fe158de5a1885c1e72f3ce565bfbf6e"
+    },
+    {
+      "path": "TheoremA2/Basic.lean",
+      "bytes": 4421,
+      "sha256": "c1d7f0343f014f3d1c093ccade6b069548dd3f0638e80c924f6672bc50fdcf73"
+    },
+    {
+      "path": "TheoremA2/CellEnergyComparison.lean",
+      "bytes": 16545,
+      "sha256": "2ed6c167f26b3dcb9f9a248509ad362932495baba3178d195797bcfec09eebff"
+    },
+    {
+      "path": "TheoremA2/Characteristic.lean",
+      "bytes": 4780,
+      "sha256": "dc41414195204106f422c02cc7fb10d3af9e2543c91e9201005d6f24a4d4b883"
+    },
+    {
+      "path": "TheoremA2/ConcreteReduction.lean",
+      "bytes": 2970,
+      "sha256": "090c65911bafd5c2243735e0847f8d6ca276b6e80d06557dee8a2aca9f707ec6"
+    },
+    {
+      "path": "TheoremA2/ConvexSupport.lean",
+      "bytes": 5700,
+      "sha256": "412c0901524bcba17d0f8f382642fcf790db0f97eee6928648efb424e455a01b"
+    },
+    {
+      "path": "TheoremA2/ConvexSupportMatrix.lean",
+      "bytes": 7303,
+      "sha256": "b5c23760dde993106e5fae4671f9005d200c2989c976003d369534bd7539584a"
+    },
+    {
+      "path": "TheoremA2/ConvexSupportMeasure.lean",
+      "bytes": 8456,
+      "sha256": "30eaf81b41335914a1cf690df4da00e2f8c57bf8038b169687a4800744895e3a"
+    },
+    {
+      "path": "TheoremA2/CosineEnvelope.lean",
+      "bytes": 12960,
+      "sha256": "3b87daa085c4ab4dc8aa86cdab464071412a779813668d23513997495a5cda71"
+    },
+    {
+      "path": "TheoremA2/CosineReference.lean",
+      "bytes": 14557,
+      "sha256": "60c7815ee58d6a6a2f6890913b5f0faea937d81cc4dc60b023552985ec5cf13e"
+    },
+    {
+      "path": "TheoremA2/CosineReferenceBounds.lean",
+      "bytes": 18472,
+      "sha256": "271d0714e00f48dc1ee7545c4ea49413df19135f9a91df6f3daaa3a59dcab42b"
+    },
+    {
+      "path": "TheoremA2/CramerRaoCore.lean",
+      "bytes": 8859,
+      "sha256": "db3ee936ef8963d2c3d6afc3dbf7bceef702a5c4dcf5a9be8a48c8e51121dfe2"
+    },
+    {
+      "path": "TheoremA2/DecoderProduct.lean",
+      "bytes": 4075,
+      "sha256": "f2c018af457e626a2c09764097027f1802fcf4bdce77bf0994f62ba44dcb153b"
+    },
+    {
+      "path": "TheoremA2/EnvelopeCramerRao.lean",
+      "bytes": 12740,
+      "sha256": "5884d26915ac9c6c43eb27b5eb897da288a409b2576a3a35148766e8b92769e4"
+    },
+    {
+      "path": "TheoremA2/FiniteContinuousMixture.lean",
+      "bytes": 20541,
+      "sha256": "44ec1b1a5c70e44cdbfa4c520d752219530dad7a6f6576640e4d5ad849e43fba"
+    },
+    {
+      "path": "TheoremA2/FiniteExponential.lean",
+      "bytes": 6013,
+      "sha256": "cc7c28ee0203316d59e261de16f9d8f7c1ec85f5cbd2c711d9468bcdc3f1424c"
+    },
+    {
+      "path": "TheoremA2/GaussianCovarianceBasic.lean",
+      "bytes": 8103,
+      "sha256": "dd02474083fe743a10a320f9342e755646cc0607c46c5baf13dfa00825adfaf8"
+    },
+    {
+      "path": "TheoremA2/GaussianCovarianceDensity.lean",
+      "bytes": 6542,
+      "sha256": "57b6dc83f9e01450091dde8df195ffd19352d2f143d7307d4b86ef4fdb60d910"
+    },
+    {
+      "path": "TheoremA2/GaussianCovarianceTranslation.lean",
+      "bytes": 3969,
+      "sha256": "112531614fdfc79f6f2c80c3a31096466dea713139f2edb8a10e4ca61a41db98"
+    },
+    {
+      "path": "TheoremA2/GaussianDomination.lean",
+      "bytes": 39,
+      "sha256": "1665d4c9437b1b1f9d55760e17b7436f495d22ee578235daf5335f9c9edd1518"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeBL.lean",
+      "bytes": 16157,
+      "sha256": "2dba1e9aa9a3c1f63e7dfd212cdaea9200b946bbd5bf42371f3d794c63aeb4c5"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeBox.lean",
+      "bytes": 8242,
+      "sha256": "f9fbfd1dd5f240181903042a38aac6c9d167833fa6f4498c3cdf80641db34731"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeBoxEuclidean.lean",
+      "bytes": 5241,
+      "sha256": "6ac8e44ee18509007e1daa3621e5384d6101f3deb713b0b3d11df742a84e36f3"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeCells.lean",
+      "bytes": 13711,
+      "sha256": "ab110eda6b7532e574882ad5840faaeb1b3c91d803c5ba283d7df281321c1574"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeComparison.lean",
+      "bytes": 3378,
+      "sha256": "2cac92e9989b7e6f0a05a98f6315ec9f58e57a00fe784cb7ed9c0cf674bd0c3a"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeDifferential.lean",
+      "bytes": 9757,
+      "sha256": "cd6cf3470f93a12b0de136ee34c9175f65a2ce476c37b6a1983a705dbb6830c4"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeEuclidean.lean",
+      "bytes": 4923,
+      "sha256": "7adf685323cb6cabde37d916d728fa43222ee2cb8f2abb3530a79fa735c466e3"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeLaw.lean",
+      "bytes": 7142,
+      "sha256": "5054a0a07bad9a8eaea8f3f5779aad936d24688198cd3bafbfa0873121eb06d9"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopePeriods.lean",
+      "bytes": 7926,
+      "sha256": "6aab9341722d56896b3a5aa64635c059fde951f69abb6e81b5e4dccf1aaf809e"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopePointwise.lean",
+      "bytes": 9986,
+      "sha256": "f9639dae7b0997f13c41c4ed7f49c6391cbb1b519ebeb31dc8b2554b29f251f2"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeRelative.lean",
+      "bytes": 15192,
+      "sha256": "67bdee31bfb23ef0fd6253ac9ee8486e4b9b6119cfe7d752e3eba203b10d2d79"
+    },
+    {
+      "path": "TheoremA2/GaussianEnvelopeTail.lean",
+      "bytes": 5527,
+      "sha256": "3299deee8d83148563f4e1deabf14af450b03b056c208d8daaf63375e0a76a66"
+    },
+    {
+      "path": "TheoremA2/GaussianFourierMoments.lean",
+      "bytes": 4498,
+      "sha256": "c55ba59ec818dabcf9d1bf811ca2e197e30acfb26a396c4bcb21777b2eb03759"
+    },
+    {
+      "path": "TheoremA2/GaussianFourierProduct.lean",
+      "bytes": 5012,
+      "sha256": "ee862ea0d0c51d1cf6b71e41bdd448a459575d466d4d8a46fe58f0ce32a1edc2"
+    },
+    {
+      "path": "TheoremA2/GaussianFourierQuadratic.lean",
+      "bytes": 5394,
+      "sha256": "dc9f2bb355f77cd9e92b6a53c2e08cbd30800e806b8619a99e7fc56b6ae541cb"
+    },
+    {
+      "path": "TheoremA2/GaussianPolynomial.lean",
+      "bytes": 1383,
+      "sha256": "9d4f4524773d7289d9f7ac33b4ed870e52ebf7df28a772f6b67145d64cf22b98"
+    },
+    {
+      "path": "TheoremA2/GaussianRankOne.lean",
+      "bytes": 8911,
+      "sha256": "8316f1136ab0b47ae60932c974bed1a0e65e366438f62fdcd4283de2a228e5da"
+    },
+    {
+      "path": "TheoremA2/GaussianRelativeAlgebra.lean",
+      "bytes": 1763,
+      "sha256": "1e4e1c36ce687daf9bb4c832a49bc1f919e9abf05e0eb53547decba434468957"
+    },
+    {
+      "path": "TheoremA2/GaussianResolvent.lean",
+      "bytes": 3120,
+      "sha256": "69d516e582f6ab4ffd53307dd261b913e80d57b04a6742df374e23bb59392710"
+    },
+    {
+      "path": "TheoremA2/GaussianShift.lean",
+      "bytes": 11663,
+      "sha256": "94f838a4aaa1acd5ea122a4df30ef287f4a9bf92963c9987dd5e0c7deec1c284"
+    },
+    {
+      "path": "TheoremA2/GaussianSpinFourier.lean",
+      "bytes": 8095,
+      "sha256": "b7817a0f33c878f71ef13a3fe9f485c0de21872708599131766665a56a72ea65"
+    },
+    {
+      "path": "TheoremA2/GaussianSquareMGF.lean",
+      "bytes": 8422,
+      "sha256": "be9ffa7939c19052ecedf5e92dd31138331c91202bea1c097a94b318315a2bbc"
+    },
+    {
+      "path": "TheoremA2/GaussianTail.lean",
+      "bytes": 6759,
+      "sha256": "b496bf3936236ecdb6f21cc0ebf8f6c8771cc8fed569b804544680c9006796f3"
+    },
+    {
+      "path": "TheoremA2/Imports.lean",
+      "bytes": 979,
+      "sha256": "8ee602a4b45fe021d92c52c632496a5b6cf66ead0f8f08246b60522cdbdd2569"
+    },
+    {
+      "path": "TheoremA2/JointCellIdentity.lean",
+      "bytes": 5842,
+      "sha256": "b9a79c762a2f44de0ab28834a27747a6353dc4cbd65101629a3699855b72b7a6"
+    },
+    {
+      "path": "TheoremA2/JointComparison.lean",
+      "bytes": 4015,
+      "sha256": "07261c381d27014ae787d752e8c5b6a5b2aa31557d5892f869230f9d0bc2b4f8"
+    },
+    {
+      "path": "TheoremA2/JointCovariance.lean",
+      "bytes": 5273,
+      "sha256": "83dbf4000776532e36925dded4e1189e232b2ce220fadc371040edd0bc9a25f2"
+    },
+    {
+      "path": "TheoremA2/JointCovarianceSmooth.lean",
+      "bytes": 7052,
+      "sha256": "425adadf35d6c4bd3b469f230229258529efad86a98c1dff79251752985da7e4"
+    },
+    {
+      "path": "TheoremA2/JointFinalReduction.lean",
+      "bytes": 3582,
+      "sha256": "047a33c9678d723430fd1077fb22a27ed220bfc1adda65a95ab65fcbe603fb0b"
+    },
+    {
+      "path": "TheoremA2/JointMarginalBounds.lean",
+      "bytes": 6788,
+      "sha256": "3a2656cb9e71a015c9c1701bc39762d155245bfb40248e837430370bc63996f3"
+    },
+    {
+      "path": "TheoremA2/JointMarginalDifferential.lean",
+      "bytes": 7771,
+      "sha256": "15b2c8a4ef2a05c4ceb67fe75400d09e9d8deeb39a1481b5f6e0f5e933760c16"
+    },
+    {
+      "path": "TheoremA2/JointMarginalIntegrability.lean",
+      "bytes": 6183,
+      "sha256": "e22c198b7e282fa32385487d31a816d1d4bd88f38ace4e5df81148fd08e86c52"
+    },
+    {
+      "path": "TheoremA2/JointMarginalPotential.lean",
+      "bytes": 10418,
+      "sha256": "ce53c4d472ce4bfd190bf5b1466706cccbdfd770266bc809d8ef827950ccb002"
+    },
+    {
+      "path": "TheoremA2/JointPrecisionAlgebra.lean",
+      "bytes": 12924,
+      "sha256": "490ca406b911d0d7b12118e4df316201862ec8a803cab3552c7d77e028e781e4"
+    },
+    {
+      "path": "TheoremA2/JointPriorApproximation.lean",
+      "bytes": 11415,
+      "sha256": "813421a1eab89a123aab69982f9f88a80c31f9628dca36afe69dea0d5b1d2319"
+    },
+    {
+      "path": "TheoremA2/JointReference.lean",
+      "bytes": 17339,
+      "sha256": "43f030946822d921f7fdc7658c98b147a723b7c3cc59c568e169cdaab52059bc"
+    },
+    {
+      "path": "TheoremA2/JointReferenceTilt.lean",
+      "bytes": 5603,
+      "sha256": "13fe02b550bdce1db6ac0c9db0ab9a5531091cff849d5f190c18744c6b3360db"
+    },
+    {
+      "path": "TheoremA2/LatticeEnergy.lean",
+      "bytes": 22054,
+      "sha256": "09fe8422b9d502a9e5326c934264bc6524ead2f40386390fca88acb20f3d8bb3"
+    },
+    {
+      "path": "TheoremA2/Normalizer.lean",
+      "bytes": 3830,
+      "sha256": "a9856b94b8c7cb1ff5abe8a9ce6658e98b4f69834a940dff4f9cce1388883d29"
+    },
+    {
+      "path": "TheoremA2/PaddedDecoder.lean",
+      "bytes": 19238,
+      "sha256": "9971c5e2106e885f0c235793cd4e4b0f5b112ea998679243b77f454cec314bd9"
+    },
+    {
+      "path": "TheoremA2/PaddedDecoderGaussian.lean",
+      "bytes": 10472,
+      "sha256": "89de777c34eb875dba27d7cb161db76b361c9d08f5f4270ef43bfa24b82d1c0e"
+    },
+    {
+      "path": "TheoremA2/Parameters.lean",
+      "bytes": 11727,
+      "sha256": "8a661a5a38e40ced2d623814e31970fe6c2eecafc74a5fb4d7871aa11e5f0d8f"
+    },
+    {
+      "path": "TheoremA2/PeriodicCells.lean",
+      "bytes": 12478,
+      "sha256": "d0a799b4cca8335c1524b2bef9735a2faf2f36d17ea790ce3f099dacf220272e"
+    },
+    {
+      "path": "TheoremA2/PrincipalInverse.lean",
+      "bytes": 19429,
+      "sha256": "5a4a6e43316929ede2b2e016d166e8da913808b4ccd2bb985ceae23006c27388"
+    },
+    {
+      "path": "TheoremA2/ScalarExtension.lean",
+      "bytes": 12661,
+      "sha256": "6caa55444a549d6c1d5ecd6e6c52eb6f0e1d47799946d17fed8f3c2b4d27e26d"
+    },
+    {
+      "path": "TheoremA2/ScalarGaussianBounds.lean",
+      "bytes": 7930,
+      "sha256": "a0047b3c2c885f8b7099a27a716256ea00fb7050d1ab86323ad1cfa947ab838d"
+    },
+    {
+      "path": "TheoremA2/ScaledMatrix.lean",
+      "bytes": 2355,
+      "sha256": "b4095c15e7f3fb62582925ffb102b5e68acea519e567c0a81865486f54f65b17"
+    },
+    {
+      "path": "TheoremA2/SecondMoment.lean",
+      "bytes": 3924,
+      "sha256": "e6fda5b4d2b50f35f93febd74f1b5614eefbd30286eabbf0ad775caecded8625"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceAllField.lean",
+      "bytes": 6405,
+      "sha256": "19f6c9d34aca0e2d34328116138b33578073d7e23510553f153e3b66024adcba"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceBasic.lean",
+      "bytes": 8766,
+      "sha256": "b5d05ba1086cd2375307b61782366fc3334b7b48e8899df0eab66d57989d4ce5"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceConditional.lean",
+      "bytes": 15801,
+      "sha256": "37edf807835016d78091032505915206d4973e26426bf7a2f857027df9106612"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceMoments.lean",
+      "bytes": 5600,
+      "sha256": "e41cb8b9019d589dc521a5c5f74a2b06853de14a18db2912579b072018a411f9"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceNumerics.lean",
+      "bytes": 17757,
+      "sha256": "44a80bbf98ca9e4ca06bcc3923977ae85c697dc74a8e0938806ad3ada8618b93"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceParameters.lean",
+      "bytes": 935,
+      "sha256": "8766d8f70c6e8f137252031817164fa14079c91ec3550cdac535e9fe15093cd5"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceSpectral.lean",
+      "bytes": 11970,
+      "sha256": "7dcd2ac466051ebbfaccff0ef892dd841a1ebad73e78201feb7bb6718a05b4d2"
+    },
+    {
+      "path": "TheoremA2/SpinCovarianceTheorems.lean",
+      "bytes": 4634,
+      "sha256": "c5fca6de814251af718e0b1135dfa06a2f2f700f56465476b09542451e65668a"
+    },
+    {
+      "path": "TheoremA2/Target.lean",
+      "bytes": 2485,
+      "sha256": "a48948a43e33c55bc559a5e7036e45713ac3624fb6342b02b77e910434c4efbe"
+    },
+    {
+      "path": "TheoremA2/TiltedMGF.lean",
+      "bytes": 1605,
+      "sha256": "0ec7e3204bc1032486544dbc6b83b02a2c8d75593be55f40445c7b60d1e81f83"
+    },
+    {
+      "path": "TheoremA2/UniformPositivity.lean",
+      "bytes": 2172,
+      "sha256": "99f64a20f59ad21f2d737afb31d3bd31a0c4f8bd964c8511b91eccafbbfd3c76"
+    },
+    {
+      "path": "TheoremA2/WeightedTail.lean",
+      "bytes": 5425,
+      "sha256": "2c22a83f41f86549db1e511e9efba035fa3c0f4c283dcd2555bad3cae7784f71"
+    },
+    {
+      "path": "TheoremA2.lean",
+      "bytes": 182,
+      "sha256": "db75ae9d581f14e37d8de112f6cb868d167cff003e6e8004e6c7643824ef5b1d"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 8114,
+      "sha256": "b006d0f681812f27043ad44ec700eac7873ec5627e1a9622e3f7fb8abe7ea69a"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3563,
+      "sha256": "65ba7ff6f071c06a36231a9ec5b441b0579e0e342e95408c0e114fcb1a76da40"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 322,
+      "sha256": "cea4c115d78e3600c66dab5ea1cf12af4c8bf97fdaffa738dbd6d81b22879968"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 29,
+      "sha256": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a"
+    },
+    {
+      "path": "scripts/verify_project.py",
+      "bytes": 12937,
+      "sha256": "d56b6ff888f1cf33b49f6cecef979bcd7e13938f1ab0637d162423bf8940ea00"
+    },
+    {
+      "path": "third_party/GinibrePoincare-LICENSE.txt",
+      "bytes": 1070,
+      "sha256": "18186e480c86c6a5acfcac94bf63e382a83b41bb1cf173eaf32d347ae898185e"
+    },
+    {
+      "path": "third_party/GinibrePoincare-source-manifest.json",
+      "bytes": 12413,
+      "sha256": "c85f541e645f7a18f26db2e5608fed3ab5d1c846350a120a9265ae8decb71670"
+    },
+    {
+      "path": "verification/dependency-and-vendor-audit.json",
+      "bytes": 27297,
+      "sha256": "236dcc68614edbe141af6351f2ba12bc1db332bbb67a519ad319009bf2242589"
+    },
+    {
+      "path": "verification/dependency-and-vendor-audit.txt",
+      "bytes": 2688,
+      "sha256": "69022d55d600687bde6d2ae9cacd85fee1c22b8f3cb9d6a62dbd997517f38b49"
+    },
+    {
+      "path": "verification/final-build/001-TheoremA2.ScalarExtension.log",
+      "bytes": 247,
+      "sha256": "10d842ea0f00681bf0d53fe5f6be08cb49a8526ff96bb9fddf6b9aa1318710b5"
+    },
+    {
+      "path": "verification/final-build/002-BrascampLieb.ScalarExtension.log",
+      "bytes": 253,
+      "sha256": "9a9b3abb165cd25a7bc6623c0d6f25cf818c9be3e78a2f799ffe9f92a236b84b"
+    },
+    {
+      "path": "verification/final-build/003-BrascampLieb.BoxPenalty.log",
+      "bytes": 1176,
+      "sha256": "10b82686b59433e23e0e75e087d43e5b8b911679457348cfab057242d81642b1"
+    },
+    {
+      "path": "verification/final-build/004-GinibrePoincare.Analysis.AlternativeBakryEmeryGibbsGenerator.log",
+      "bytes": 6241,
+      "sha256": "3e8a608a3bc13c792d32d06102bc573a4876c3d073bef36a1c1d456d5b5bee05"
+    },
+    {
+      "path": "verification/final-build/005-GinibrePoincare.Analysis.CorrespondenceBrascampLiebJets.log",
+      "bytes": 6891,
+      "sha256": "4a1fd9311674de368608a4f20dd76c60d2221f2ff362fb567ae3df90b2a19f4f"
+    },
+    {
+      "path": "verification/final-build/006-GinibrePoincare.Analysis.CorrespondenceBrascampLiebAdjoint.log",
+      "bytes": 7381,
+      "sha256": "a7180b652b4ac5ba8e16e9096f0eaa98a526c6d832a61766661d0fe75895b3f7"
+    },
+    {
+      "path": "verification/final-build/007-GinibrePoincare.Analysis.CorrespondenceBrascampLiebBochner.log",
+      "bytes": 7850,
+      "sha256": "f9cdc70d2d2834391465db4ecaab69195978b18b56d04195e7a4755ca82e8e07"
+    },
+    {
+      "path": "verification/final-build/008-GinibrePoincare.Analysis.CorrespondenceBrascampLiebBochnerIntegral.log",
+      "bytes": 8163,
+      "sha256": "6cd03708869edc274a37a5dc53718cc90e9c14308f0dc8ac1423025140284d0c"
+    },
+    {
+      "path": "verification/final-build/009-GinibrePoincare.Analysis.CorrespondenceBrascampLiebMatrix.log",
+      "bytes": 598,
+      "sha256": "129d3216c7b68701896fa373e71f90b9e68ddcb793de4dc112c9679696ef7929"
+    },
+    {
+      "path": "verification/final-build/010-GinibrePoincare.Analysis.CorrespondenceBrascampLiebHessian.log",
+      "bytes": 8719,
+      "sha256": "89e67b2083803d4d7286df03d13fdb130de379b05ad752a894e7575074d508f2"
+    },
+    {
+      "path": "verification/final-build/011-BrascampLieb.SeparableHessian.log",
+      "bytes": 15949,
+      "sha256": "2fae3d93a3dca70eef4df62a80619331dc4e9d9c5a9d3360853f4ec489fe7d3d"
+    },
+    {
+      "path": "verification/final-build/012-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCompactEnergy.log",
+      "bytes": 10415,
+      "sha256": "2c83c2276b76fc94398a4baf83f580ae96d2e7460b94d42d420ac770987e7300"
+    },
+    {
+      "path": "verification/final-build/013-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityBessel.log",
+      "bytes": 2395,
+      "sha256": "7f594db3a85900dd0b690b612090af9e0979bc4dbab800e92451b9534de7594c"
+    },
+    {
+      "path": "verification/final-build/014-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityWeakDerivatives.log",
+      "bytes": 3144,
+      "sha256": "e2d0c7f74b9c44c14e65ee8084e931b9073b3646ee8a403208cc4553234060b4"
+    },
+    {
+      "path": "verification/final-build/015-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityCompactTests.log",
+      "bytes": 3991,
+      "sha256": "2df7ec4df3b1d3084ea11ea12b15703f12d164b35dc76a3d7884b0d4f83d9558"
+    },
+    {
+      "path": "verification/final-build/016-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityTemperedEquation.log",
+      "bytes": 4733,
+      "sha256": "9678048dd240b9d4760707f01fc3e37ebb8add0aebb0aae0b66480b37f20ce44"
+    },
+    {
+      "path": "verification/final-build/017-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityCompactData.log",
+      "bytes": 5062,
+      "sha256": "6268b0280b46ef7766cc26dbbd6defe975a2913648a59c3e3beda95cb48e01ab"
+    },
+    {
+      "path": "verification/final-build/018-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityProduct.log",
+      "bytes": 5360,
+      "sha256": "10102936571bcbf4f90c90bec3336fcb90502c93ea26e55f876b1513d30bfcf9"
+    },
+    {
+      "path": "verification/final-build/019-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityLocalization.log",
+      "bytes": 5698,
+      "sha256": "04958b2ae8d9ead1771cedbd7f7a0ea5490f3f3031f22b3cc6219234454121c3"
+    },
+    {
+      "path": "verification/final-build/020-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityLocalizedData.log",
+      "bytes": 6730,
+      "sha256": "ad4cc9a6cfa022dd9619f78df4024ccf74f3bbd53e735a422c1871d0d0f0034c"
+    },
+    {
+      "path": "verification/final-build/021-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRestrictedData.log",
+      "bytes": 7080,
+      "sha256": "471846f64557a546a3430f3df8c92ed5c43106ca1a483383f8e0cebb3b51c135"
+    },
+    {
+      "path": "verification/final-build/022-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticDensity.log",
+      "bytes": 8587,
+      "sha256": "817e814215ac9aef750aaf310a462787ca7316d7cef41bbf919568afb545a38e"
+    },
+    {
+      "path": "verification/final-build/023-GinibrePoincare.Analysis.CorrespondenceBrascampLiebGibbs.log",
+      "bytes": 19920,
+      "sha256": "1f860277f979ad9274e8afb8305a2cee20587eb5069ad3742fedc096a715d14f"
+    },
+    {
+      "path": "verification/final-build/024-GinibrePoincare.Analysis.CorrespondenceBrascampLiebIntegralCS.log",
+      "bytes": 1107,
+      "sha256": "20a7a5aceb83b8543023d44bd7ec4bf5c329ff39e0041404e99b1a432afc8ab9"
+    },
+    {
+      "path": "verification/final-build/025-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCompactBound.log",
+      "bytes": 21456,
+      "sha256": "5830def3c3bd771a41e8b42955ed1617b9a50105c893b1c747cc8d5daefaaf44"
+    },
+    {
+      "path": "verification/final-build/026-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCore.log",
+      "bytes": 23079,
+      "sha256": "3c798b0ed32c72751aa740a51d09efe0da52036f96bedfa4fdce7d173d4f62af"
+    },
+    {
+      "path": "verification/final-build/027-GinibrePoincare.Analysis.CorrespondenceBrascampLiebLinear.log",
+      "bytes": 23553,
+      "sha256": "9d5dbbe45596bb93e8809d6c1c8c70be724dc56ec74a989f197dd83c953a85f0"
+    },
+    {
+      "path": "verification/final-build/028-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCoreRange.log",
+      "bytes": 23836,
+      "sha256": "643c733dd5a0884f6353286f152942348eac834436c91afc64fcabe2e7fff643"
+    },
+    {
+      "path": "verification/final-build/029-GinibrePoincare.Analysis.CorrespondenceBrascampLiebDuality.log",
+      "bytes": 585,
+      "sha256": "56a4960c303ef795e572cee43dd8e9cb8e68bf9612a85181bdefeb500fc952bd"
+    },
+    {
+      "path": "verification/final-build/030-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCoreDual.log",
+      "bytes": 23641,
+      "sha256": "d13a823200e47e67420fc8b91a9b63f70c54ab873f0e86a2b1bd8a18eaa4c137"
+    },
+    {
+      "path": "verification/final-build/031-GinibrePoincare.Analysis.CorrespondenceBrascampLiebConstants.log",
+      "bytes": 24883,
+      "sha256": "65a8ca8318696d107c222766a6a8217b1e16771beac6813ee971aa528848315e"
+    },
+    {
+      "path": "verification/final-build/032-GinibrePoincare.Analysis.CorrespondenceBrascampLiebMass.log",
+      "bytes": 21530,
+      "sha256": "785c2c622bae2db2edbce5a7e7781fb9202f0282c1a7f3f18cef023d9582143f"
+    },
+    {
+      "path": "verification/final-build/033-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCenter.log",
+      "bytes": 27993,
+      "sha256": "fc8732eef12712052188027277980de321e19f55560c5abd2674e4ae92a6649e"
+    },
+    {
+      "path": "verification/final-build/034-GinibrePoincare.Analysis.CorrespondenceBrascampLiebDensityGenerator.log",
+      "bytes": 20244,
+      "sha256": "bccbda99a51f25a3622ec42f07dc2f742e5137c7a1f52f9baa384ea87fe46392"
+    },
+    {
+      "path": "verification/final-build/035-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRealTests.log",
+      "bytes": 6258,
+      "sha256": "0635be00e2b61b8afea78008c460163b14d178cd9aadd1a0b8bac7e8fa4823e7"
+    },
+    {
+      "path": "verification/final-build/036-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRealIndicator.log",
+      "bytes": 7072,
+      "sha256": "1aa49188111a7f9c34fbd83eb4953794bcb85f0a042f6133c30bfc2df550bc06"
+    },
+    {
+      "path": "verification/final-build/037-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityInterior.log",
+      "bytes": 7044,
+      "sha256": "029d92473d971fab06d0d4acb6a01816d8e4dee6cbf45626544555b4be46ba71"
+    },
+    {
+      "path": "verification/final-build/038-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRealDerivative.log",
+      "bytes": 7389,
+      "sha256": "c83fa2e02bb93a899442f4fea2de98431d0959474f3f864ec302baf654b63664"
+    },
+    {
+      "path": "verification/final-build/039-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticReal.log",
+      "bytes": 11233,
+      "sha256": "9ec311c35165e3952c5990f76f093ce0bca4d50d6a9c4f32f29898b6ed2ef272"
+    },
+    {
+      "path": "verification/final-build/040-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityTestIntegrability.log",
+      "bytes": 1201,
+      "sha256": "8bc2017529dd466605dee3f3e6b19ebe3c7f3345511236a940ec710e995b41d4"
+    },
+    {
+      "path": "verification/final-build/041-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticEquation.log",
+      "bytes": 12763,
+      "sha256": "799c47970fe8c83349852d67b5bf8eb37c6a80cafd82d8d12c38507123f8f943"
+    },
+    {
+      "path": "verification/final-build/042-GinibrePoincare.Concrete.Configuration.log",
+      "bytes": 273,
+      "sha256": "660738a8a87d745e8fb614aeaaa3451647168ff78a14b2713810726e2f273bae"
+    },
+    {
+      "path": "verification/final-build/043-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticMollification.log",
+      "bytes": 1128,
+      "sha256": "17bd18c692b33b7a8f5eb5efdf6f6edbec140bb8bb873c7d59df9a707ec47150"
+    },
+    {
+      "path": "verification/final-build/044-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticConvolution.log",
+      "bytes": 1446,
+      "sha256": "ef57a06430bc0c277fe7d05b31657554d531c79baad81f664b07e5ca1aeaf0f3"
+    },
+    {
+      "path": "verification/final-build/045-GinibrePoincare.Analysis.WeakDerivativeMollification.log",
+      "bytes": 301,
+      "sha256": "c31a53a1afe2d58c4e4a8687841b16605d10258c285c5a86b1d51aaef2bdea44"
+    },
+    {
+      "path": "verification/final-build/046-GinibrePoincare.Analysis.LipschitzMollification.log",
+      "bytes": 291,
+      "sha256": "e6a1db2fc780294e13098857fa2cd170f19173a65364e9c5c9cd405873ae6a0a"
+    },
+    {
+      "path": "verification/final-build/047-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticC1Tests.log",
+      "bytes": 2215,
+      "sha256": "3c2e0d651c0813928d6d07b830f91235600c480d70318750bd10bed7c16b2a73"
+    },
+    {
+      "path": "verification/final-build/048-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticProduct.log",
+      "bytes": 3426,
+      "sha256": "4df123cc6a631bb5ce06246e1d708b976085cb5f31b62c47cb7a23f029e6a191"
+    },
+    {
+      "path": "verification/final-build/049-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticDivision.log",
+      "bytes": 12367,
+      "sha256": "0acec1a66ba0c357746b81facfd26b17ecca314b259346241fea6d53c3ee3a48"
+    },
+    {
+      "path": "verification/final-build/050-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticLocalSobolev.log",
+      "bytes": 16858,
+      "sha256": "da5af2aad2836bb132e7bca1039b8d7cb2f5953626875df5f82b4281f81daf81"
+    },
+    {
+      "path": "verification/final-build/051-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticGreen.log",
+      "bytes": 18276,
+      "sha256": "6fa64828a82079bdba6193727ab5b413cfcfe32d871cd743b56fee4c4f67fb00"
+    },
+    {
+      "path": "verification/final-build/052-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticSobolevApproximation.log",
+      "bytes": 2798,
+      "sha256": "805b232efbd20a83ef2bb1ed2d5694da3956fd32cec3f8a8fc3ca286e58c8647"
+    },
+    {
+      "path": "verification/final-build/053-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticFormTesting.log",
+      "bytes": 3077,
+      "sha256": "ded0d7d4cf38e68b4ccff833d356b7f06cb68e4529ca92d9d52c1a7b3ecdf007"
+    },
+    {
+      "path": "verification/final-build/054-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticCutoffGradient.log",
+      "bytes": 17170,
+      "sha256": "e073e75e4d6f7bd87650b72000868c9fd3ad0194159511b5e60a14b2f6ec3b14"
+    },
+    {
+      "path": "verification/final-build/055-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticCutoffForm.log",
+      "bytes": 20673,
+      "sha256": "c7fdfe8a9a1b62759bede175ca5f377b8ae8334a87a240853bb6df65d3c39f8c"
+    },
+    {
+      "path": "verification/final-build/056-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticCutoffEnergy.log",
+      "bytes": 20991,
+      "sha256": "08ba9e41ca9ea2503009154c8b8cb123b7e42499a7671e69addc820fe8f19079"
+    },
+    {
+      "path": "verification/final-build/057-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticZeroGradient.log",
+      "bytes": 2536,
+      "sha256": "f684bd9c0e83b37fa2def436182c87a3df1f84eb8ed7966f2f2f3ba3c27a567b"
+    },
+    {
+      "path": "verification/final-build/058-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCutoffs.log",
+      "bytes": 7598,
+      "sha256": "99ead9b903ca8e1c352a87dc10e8a9732874ae7fdaca0a926a1b1ba3f6ddf696"
+    },
+    {
+      "path": "verification/final-build/059-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticLiouville.log",
+      "bytes": 29179,
+      "sha256": "264af7fa34d0b824d6f908a34aad6ae3b4d545095ea1d3e957293ab90d1c1790"
+    },
+    {
+      "path": "verification/final-build/060-GinibrePoincare.Analysis.CorrespondenceBrascampLiebDense.log",
+      "bytes": 43265,
+      "sha256": "ae968205eb4d40385a18d9065c9946c92dd2b2c15ec9d69d6e820c24bee1e4ca"
+    },
+    {
+      "path": "verification/final-build/061-GinibrePoincare.Analysis.CorrespondenceBrascampLieb.log",
+      "bytes": 44087,
+      "sha256": "d4af3a70d70745ce200ed33608c6692001c09239550969f7b67873cf6c5906b3"
+    },
+    {
+      "path": "verification/final-build/062-BrascampLieb.WeightedLimit.log",
+      "bytes": 45625,
+      "sha256": "13d6c9ba93ae0deda84576b1d6e878549ed91f6047b4f00ad32341aaee96f60c"
+    },
+    {
+      "path": "verification/final-build/063-BrascampLieb.BoxVariance.log",
+      "bytes": 54763,
+      "sha256": "82eee6ff42999a3e00c71c3a2f498f9d4bd81871ab529cb809031bb602f9ebef"
+    },
+    {
+      "path": "verification/final-build/064-BrascampLieb.CosineExtension.log",
+      "bytes": 985,
+      "sha256": "baee540982875a0a819ef5a527874424ac3184dbda5f613b22794e79f6795e01"
+    },
+    {
+      "path": "verification/final-build/065-BrascampLieb.CosineApproximation.log",
+      "bytes": 1658,
+      "sha256": "2396fe757afd98622593a11c202a7296f9c8f8a8653b8f5ff9db1200b87d31b4"
+    },
+    {
+      "path": "verification/final-build/066-BrascampLieb.GaussianDomination.log",
+      "bytes": 1333,
+      "sha256": "d2e2df79066cb2ee5b14027e2ef504b8980db0ddac0954914a4cd7f2e3c7c523"
+    },
+    {
+      "path": "verification/final-build/067-BrascampLieb.NormalizedVariance.log",
+      "bytes": 56238,
+      "sha256": "e17b91aabdea9b10f3a2ed753135a33302a46eaf90cdfe307613e9aeaa4e6dad"
+    },
+    {
+      "path": "verification/final-build/068-TheoremA2.Imports.log",
+      "bytes": 231,
+      "sha256": "bc3add000ea6d947ad9d39a476fbf63fa90f5f92350cb8799433a239786abca0"
+    },
+    {
+      "path": "verification/final-build/069-TheoremA2.Basic.log",
+      "bytes": 227,
+      "sha256": "16584de3536e8c2aa0b02b0ed9cf1a89dab34ff7f64b0e8f4c5c5faec420af61"
+    },
+    {
+      "path": "verification/final-build/070-TheoremA2.SecondMoment.log",
+      "bytes": 241,
+      "sha256": "52221319985a46e7e42fedf70b85dad44cc5451f6e374127755f2c2f476b4a87"
+    },
+    {
+      "path": "verification/final-build/071-TheoremA2.Normalizer.log",
+      "bytes": 237,
+      "sha256": "0246488a51f4d83aa60e1cbb96b7a30a1464746ed71c724deae0a14a72ef08cf"
+    },
+    {
+      "path": "verification/final-build/072-TheoremA2.CosineReference.log",
+      "bytes": 247,
+      "sha256": "f9ce31177a11f1d442ab5dfbf77d6580edb62deac8679db6fc3d82f4018ec5b7"
+    },
+    {
+      "path": "verification/final-build/073-TheoremA2.ScalarGaussianBounds.log",
+      "bytes": 257,
+      "sha256": "40d837306c4e52ba4897e6efebc37f1bf4cff71438057fa11a23f4113c0a341c"
+    },
+    {
+      "path": "verification/final-build/074-TheoremA2.CosineReferenceBounds.log",
+      "bytes": 1318,
+      "sha256": "31d2866e69f96c3d341c248421ddde451480fec20d11ee1ae9806ee70d6fcbd7"
+    },
+    {
+      "path": "verification/final-build/075-TheoremA2.Parameters.log",
+      "bytes": 237,
+      "sha256": "3b3cf238353b093af37eea654662cda38009cdcfc2fe015144c22a54d240ecc8"
+    },
+    {
+      "path": "verification/final-build/076-TheoremA2.PeriodicCells.log",
+      "bytes": 1302,
+      "sha256": "43a819a7c1504c713c18e0bbb431fc3dcf7d685b81743762705aa19f7690b916"
+    },
+    {
+      "path": "verification/final-build/077-TheoremA2.ConvexSupport.log",
+      "bytes": 1138,
+      "sha256": "4a73bcecf4cc965104a39082845474b021725fa2350adad111a91c0d62e7546f"
+    },
+    {
+      "path": "verification/final-build/078-TheoremA2.PrincipalInverse.log",
+      "bytes": 3868,
+      "sha256": "2401ee3f39aacaee41fd4d29073a7798285a7c29bc50cbe906646b5f42dc6f62"
+    },
+    {
+      "path": "verification/final-build/079-TheoremA2.JointPrecisionAlgebra.log",
+      "bytes": 5206,
+      "sha256": "a5bc17f3d2ba7d332ec4b01542aa75f3d776e4dbc83111974c8f8532b755858f"
+    },
+    {
+      "path": "verification/final-build/080-TheoremA2.FiniteExponential.log",
+      "bytes": 3335,
+      "sha256": "700d650268f9df8d3f295058cfe6bf4081b9a6d9d826ab8bb1f28a976b6239f3"
+    },
+    {
+      "path": "verification/final-build/081-TheoremA2.TiltedMGF.log",
+      "bytes": 235,
+      "sha256": "128f3c4604787163d3aacd5c0efa5d5b23c7756b8eef4e5b581997cbd1cb1e3c"
+    },
+    {
+      "path": "verification/final-build/082-TheoremA2.JointReference.log",
+      "bytes": 9168,
+      "sha256": "147efcf3681a52bf113fb381182af828e5a47d440785777e58a28f59bd55d2dc"
+    },
+    {
+      "path": "verification/final-build/083-TheoremA2.SpinCovarianceBasic.log",
+      "bytes": 3874,
+      "sha256": "57310db70015dec3649f7b08662c7cd9ca2381eaa604c2db3a294f9c72ec9516"
+    },
+    {
+      "path": "verification/final-build/084-TheoremA2.SpinCovarianceMoments.log",
+      "bytes": 3878,
+      "sha256": "61a61313d72c9f8cad9252c7ea17920dac4aea0a00d7e3538876f24d8341b099"
+    },
+    {
+      "path": "verification/final-build/085-TheoremA2.JointMarginalDifferential.log",
+      "bytes": 9677,
+      "sha256": "a5af5f1a60247df9178c7d79d5a751b5b1a8eff0b4d0af4597428a6ea12bdaa8"
+    },
+    {
+      "path": "verification/final-build/086-TheoremA2.JointMarginalPotential.log",
+      "bytes": 15227,
+      "sha256": "ee34d91b071af8d45aeba90974ab69134507ad672aa27de1cb092e54fb3d2b8b"
+    },
+    {
+      "path": "verification/final-build/087-TheoremA2.JointMarginalBounds.log",
+      "bytes": 10090,
+      "sha256": "56606f951f5a13fc9fd7302b329d1093b650eb14d0a1756e74a86b84c7429e59"
+    },
+    {
+      "path": "verification/final-build/088-TheoremA2.JointMarginalIntegrability.log",
+      "bytes": 16734,
+      "sha256": "b12c213695767b260c7a6b47f9deee2ed6e8a408ee939038326ec37ab7a572b3"
+    },
+    {
+      "path": "verification/final-build/089-TheoremA2.FiniteContinuousMixture.log",
+      "bytes": 6850,
+      "sha256": "f9c2a293c03b240b38d64f5e42c67485051e0ae37cbceb760a803f32cb01a831"
+    },
+    {
+      "path": "verification/final-build/090-TheoremA2.JointCovarianceSmooth.log",
+      "bytes": 62879,
+      "sha256": "5146d6fd566d3fa53ab28950cef0d68990ce1493843a611147cf31f949172a0c"
+    },
+    {
+      "path": "verification/final-build/091-TheoremA2.JointReferenceTilt.log",
+      "bytes": 10647,
+      "sha256": "0055a9bb29edf66a6643ff27ba333ea6caff716c011f708ab05a0ad60f26ed88"
+    },
+    {
+      "path": "verification/final-build/092-TheoremA2.JointPriorApproximation.log",
+      "bytes": 20061,
+      "sha256": "dd23668c844a24ecd7552e2027964463b4ca53be11243e78d2efb7f4a23d22ab"
+    },
+    {
+      "path": "verification/final-build/093-TheoremA2.JointCovariance.log",
+      "bytes": 66602,
+      "sha256": "fc466446811fe98ed163fdb23be187dea2cef03e88894bbb2b6c4c911b18c55d"
+    },
+    {
+      "path": "verification/final-build/094-TheoremA2.ConvexSupportMeasure.log",
+      "bytes": 1608,
+      "sha256": "183305b9b86f6166742ed4f7ec9adc54dae21322f71ce4c0aec83df806a8426b"
+    },
+    {
+      "path": "verification/final-build/095-TheoremA2.ConvexSupportMatrix.log",
+      "bytes": 1606,
+      "sha256": "073a9c8994bcf1b021ce0f125ad0efdf46bf8c2ec6953c30f78348ca375dd086"
+    },
+    {
+      "path": "verification/final-build/096-TheoremA2.PaddedDecoder.log",
+      "bytes": 243,
+      "sha256": "1c246cdcd1db440160fd21c45a54534b72b4588e230a801af7c1cec8b7254cf1"
+    },
+    {
+      "path": "verification/final-build/097-TheoremA2.GaussianTail.log",
+      "bytes": 241,
+      "sha256": "8c812c7975f61b06b59bc28603a0b43ce4848ca9201fb17c3ff5cdb84eb7e550"
+    },
+    {
+      "path": "verification/final-build/098-TheoremA2.PaddedDecoderGaussian.log",
+      "bytes": 259,
+      "sha256": "3cc924579cd595d25e13c31672b5cac82a934fd0ca141982e755182582a5e21b"
+    },
+    {
+      "path": "verification/final-build/099-TheoremA2.DecoderProduct.log",
+      "bytes": 245,
+      "sha256": "5e98b10dd1345328f38096f877ad2c37478b016bbf749bcdb36283422cc08316"
+    },
+    {
+      "path": "verification/final-build/100-TheoremA2.GaussianShift.log",
+      "bytes": 2750,
+      "sha256": "83dc714fdc6c379451ab0f0a6a19ed3d21ee88f75d475535351268f1cec13f25"
+    },
+    {
+      "path": "verification/final-build/101-TheoremA2.LatticeEnergy.log",
+      "bytes": 3187,
+      "sha256": "f065edadaf5521f4aabd15a3d4068165c380daff245fe6a32aef1979a7959bf9"
+    },
+    {
+      "path": "verification/final-build/102-TheoremA2.CellEnergyComparison.log",
+      "bytes": 9970,
+      "sha256": "e9fc2f5bb34d9c69267af9d1ac39ad40ed73cbb148517cfa45a9b127892d762d"
+    },
+    {
+      "path": "verification/final-build/103-TheoremA2.JointCellIdentity.log",
+      "bytes": 12881,
+      "sha256": "3cc901e1763ffcdd89ca8a52a7ae9a7077fe4dc0604fa8f76700157ebf536cd8"
+    },
+    {
+      "path": "verification/final-build/104-TheoremA2.WeightedTail.log",
+      "bytes": 1300,
+      "sha256": "1ff7b817341dd750d391cb15fc954150b987d0ec09d6b2606962e18c7d6c65de"
+    },
+    {
+      "path": "verification/final-build/105-TheoremA2.JointComparison.log",
+      "bytes": 12877,
+      "sha256": "d3bc3e9ed7d6537ab405be48387d51e3c8eb3abb4909caec817ab627a945d675"
+    },
+    {
+      "path": "verification/final-build/106-TheoremA2.Characteristic.log",
+      "bytes": 245,
+      "sha256": "c86dced33556a278cf8d70c49a5df85aa043c11b6c3da059f92e3a70b04c077e"
+    },
+    {
+      "path": "verification/final-build/107-TheoremA2.Target.log",
+      "bytes": 229,
+      "sha256": "b8bb1c08030804b4e008896578140ac60b307c2feab30b5faa6b387b50b117e5"
+    },
+    {
+      "path": "verification/final-build/108-TheoremA2.ScaledMatrix.log",
+      "bytes": 241,
+      "sha256": "e72122daa8a2814d870aa805c502874d0644aafc4b40ee677820f30eb13dcb91"
+    },
+    {
+      "path": "verification/final-build/109-TheoremA2.ConcreteReduction.log",
+      "bytes": 251,
+      "sha256": "d0e237cb0fe9745785eb02ed9c4acca126d7adfbef00c053ee52d13ca8c3682b"
+    },
+    {
+      "path": "verification/final-build/110-TheoremA2.JointFinalReduction.log",
+      "bytes": 70317,
+      "sha256": "9a4b5f8c0451504fcf47ba8b123537f92f1ac99cad7e908563f1b75c662f63eb"
+    },
+    {
+      "path": "verification/final-build/111-TheoremA2.CosineEnvelope.log",
+      "bytes": 245,
+      "sha256": "442787297bf25221630899dd0fd4e77165c153398aa05dc78b7ffd3f5020c050"
+    },
+    {
+      "path": "verification/final-build/112-TheoremA2.SpinCovarianceConditional.log",
+      "bytes": 3886,
+      "sha256": "53c666277cf9314822e4a2b0343d2e6ca187851a66bf5b5d06a2ead61ecdedb5"
+    },
+    {
+      "path": "verification/final-build/113-TheoremA2.SpinCovarianceAllField.log",
+      "bytes": 4655,
+      "sha256": "907f770d71b10ada0a5525a4e91024c998b8da31f9a11be5f3e182376b88beab"
+    },
+    {
+      "path": "verification/final-build/114-TheoremA2.SpinCovarianceParameters.log",
+      "bytes": 4659,
+      "sha256": "2fb9965684800b24d5821f7b378500b1d20dbc13bd510f76201afd983f197d0d"
+    },
+    {
+      "path": "verification/final-build/115-TheoremA2.SpinCovarianceNumerics.log",
+      "bytes": 4655,
+      "sha256": "97fc2405a77e17e8c3cb9a5723a049751b8bb7b992120fa0806c558196b10d71"
+    },
+    {
+      "path": "verification/final-build/116-TheoremA2.SpinCovarianceSpectral.log",
+      "bytes": 5134,
+      "sha256": "4de9e1fbad5b71ef68f32994e6f849b5e9bc27bf93996d5597beffc10d9260a0"
+    },
+    {
+      "path": "verification/final-build/117-TheoremA2.GaussianCovarianceBasic.log",
+      "bytes": 7300,
+      "sha256": "9b45391af3fba461ba77e02541e3dc1eb1ce99269791399d56010d207990dd59"
+    },
+    {
+      "path": "verification/final-build/118-TheoremA2.GaussianCovarianceDensity.log",
+      "bytes": 8660,
+      "sha256": "8cfb1b7804881280f62c5441d99906f22a990c0aa4d8525da9159a14dc208b8f"
+    },
+    {
+      "path": "verification/final-build/119-TheoremA2.GaussianCovarianceTranslation.log",
+      "bytes": 9166,
+      "sha256": "6af98618358d72fd73ebcc4147e155deff05dfc8b8b361f9c20a2bdea1805295"
+    },
+    {
+      "path": "verification/final-build/120-TheoremA2.GaussianEnvelopeLaw.log",
+      "bytes": 12224,
+      "sha256": "c60d27bffd7b7bc17c1d9c594d08dfdd41820251cd7922d2a05ccb065aa3f3a9"
+    },
+    {
+      "path": "verification/final-build/121-TheoremA2.GaussianEnvelopeBox.log",
+      "bytes": 15100,
+      "sha256": "eb3297af732d4df13d0d89eb7c326d6d8a0350250580f5b74395735083500db1"
+    },
+    {
+      "path": "verification/final-build/122-TheoremA2.GaussianEnvelopeCells.log",
+      "bytes": 19268,
+      "sha256": "a12526de85ce8bdb6f87be8f80564551e028e82c3dd06a7d651ae85bcd673a99"
+    },
+    {
+      "path": "verification/final-build/123-TheoremA2.GaussianEnvelopeEuclidean.log",
+      "bytes": 12236,
+      "sha256": "7141b97bbe29b28c3b66479a00a174a3d6af3504f2f82a90a3254a141c5d39b6"
+    },
+    {
+      "path": "verification/final-build/124-TheoremA2.GaussianEnvelopePeriods.log",
+      "bytes": 18172,
+      "sha256": "27a52be23b3a3b1d1fbeec0baffd7dbfa28c9031c1a9c660ab14af88bf3d88df"
+    },
+    {
+      "path": "verification/final-build/125-TheoremA2.GaussianFourierMoments.log",
+      "bytes": 7749,
+      "sha256": "f5022ae391092f4310bd466ef36b33297625d93c73eb5137f6dfcaf4ac9c6cf4"
+    },
+    {
+      "path": "verification/final-build/126-TheoremA2.GaussianFourierProduct.log",
+      "bytes": 12759,
+      "sha256": "a27761043956f70850ff5fbfc3f033ad3d002e196d292386b18a22c51cc35f22"
+    },
+    {
+      "path": "verification/final-build/127-TheoremA2.GaussianFourierQuadratic.log",
+      "bytes": 13251,
+      "sha256": "f0007cdd21598775489b2dda65a425444c078eed392f0c649a4aa1d054154f1c"
+    },
+    {
+      "path": "verification/final-build/128-TheoremA2.GaussianSpinFourier.log",
+      "bytes": 14057,
+      "sha256": "c8ea5acdc634ebe9fccf293038f37ee3dc086effae478708611d4a2acd83275e"
+    },
+    {
+      "path": "verification/final-build/129-TheoremA2.GaussianPolynomial.log",
+      "bytes": 15407,
+      "sha256": "60b053344c9f29a1ac72e5bd26404f2f4e205c80426d2484bb632317cdf5d6ac"
+    },
+    {
+      "path": "verification/final-build/130-TheoremA2.GaussianEnvelopePointwise.log",
+      "bytes": 26637,
+      "sha256": "ff4cf63585697ce4dcd01892bfeeadf78f80d78443b7da4a52ca205748e4fce1"
+    },
+    {
+      "path": "verification/final-build/131-TheoremA2.GaussianEnvelopeTail.log",
+      "bytes": 18347,
+      "sha256": "33cac3b8a8b093364849abd4d556ff912bd66e5304b991ded842c48566d67bfb"
+    },
+    {
+      "path": "verification/final-build/132-TheoremA2.GaussianRankOne.log",
+      "bytes": 21853,
+      "sha256": "6db9dab7034e07692c3df3fc08127d58279902e77e523832a676d4ce335800fb"
+    },
+    {
+      "path": "verification/final-build/133-TheoremA2.GaussianSquareMGF.log",
+      "bytes": 22686,
+      "sha256": "1b01075fcb8ef55c9ebb211e106419590ffc0f8c2b6fbedb0737b77a0d0ab288"
+    },
+    {
+      "path": "verification/final-build/134-TheoremA2.GaussianRelativeAlgebra.log",
+      "bytes": 4657,
+      "sha256": "5869a1fea3338d604f9c746c3100a094bb517e7e1899c28c45694a2a24fc765f"
+    },
+    {
+      "path": "verification/final-build/135-TheoremA2.GaussianEnvelopeRelative.log",
+      "bytes": 35480,
+      "sha256": "fffd4d1b0a976bee459f556e28a20aa6e1a15657f6791131418122bb8e09e6d3"
+    },
+    {
+      "path": "verification/final-build/136-TheoremA2.GaussianDomination.log",
+      "bytes": 1327,
+      "sha256": "9983a6d7d5b75c8b707936b9dce3e62a371955ae7972d0d76d8f6275f30fc0f4"
+    },
+    {
+      "path": "verification/final-build/137-TheoremA2.CramerRaoCore.log",
+      "bytes": 3971,
+      "sha256": "c5d79d7b69bd6c27236a36aeb3f24a4a55a97cd923a6e2f883f6814cc0eacc07"
+    },
+    {
+      "path": "verification/final-build/138-TheoremA2.EnvelopeCramerRao.log",
+      "bytes": 20327,
+      "sha256": "020700ca6aca610eb79f510f50f3cdcb89b96b21b16450c9192744fca02594dc"
+    },
+    {
+      "path": "verification/final-build/139-TheoremA2.GaussianEnvelopeDifferential.log",
+      "bytes": 80954,
+      "sha256": "f76840e96f168dcfd443afcec3169134c0e2ea651e3aeee54fcc7a50136aa5a8"
+    },
+    {
+      "path": "verification/final-build/140-TheoremA2.GaussianEnvelopeBoxEuclidean.log",
+      "bytes": 70759,
+      "sha256": "de9106dd79accc9d00c31e13d6d6584420ced691491a5034c2936c5826dc86ae"
+    },
+    {
+      "path": "verification/final-build/141-TheoremA2.GaussianEnvelopeBL.log",
+      "bytes": 88711,
+      "sha256": "0e411a0ba199f1b5b8ae93a6d51142d478c8a5901ff4fd77c2db1163989a034e"
+    },
+    {
+      "path": "verification/final-build/142-TheoremA2.GaussianResolvent.log",
+      "bytes": 3870,
+      "sha256": "e9e02a840ea91a14bc2e916b174c9981d6fee473a37e66186de0ca397bb0a595"
+    },
+    {
+      "path": "verification/final-build/143-TheoremA2.GaussianEnvelopeComparison.log",
+      "bytes": 109109,
+      "sha256": "4e5078ce670180a68a928db8da5ad76e3987c941bc8977feaa58f0b395c07612"
+    },
+    {
+      "path": "verification/final-build/144-TheoremA2.SpinCovarianceTheorems.log",
+      "bytes": 110908,
+      "sha256": "2d68d48a64659f4cea580430cd6f1310016d870a0eb36aa79f354099728e2c1d"
+    },
+    {
+      "path": "verification/final-build/145-TheoremA2.UniformPositivity.log",
+      "bytes": 126432,
+      "sha256": "36077291adaa29db6a3fa9454414f1922b2a697edeff2171888cc3546147bfbe"
+    },
+    {
+      "path": "verification/final-build/146-TheoremA2.log",
+      "bytes": 126396,
+      "sha256": "2fcc39c81e6d33d91a544c74a8535e0bdb59fbf5154a03ac7d3c3c5ee5985359"
+    },
+    {
+      "path": "verification/final-build/SUCCESS.txt",
+      "bytes": 189,
+      "sha256": "7989c71db886056da25f1f40d98c9a19d7c266f600baf8926d3a7d9a5bff5b4e"
+    },
+    {
+      "path": "verification/final-build/aggregate.log",
+      "bytes": 2381836,
+      "sha256": "3e1748e613fc59458dd812e9d3d63b8e06c5b64685d1c368c03795a46eceedb4"
+    },
+    {
+      "path": "verification/final-build/final-audit.log",
+      "bytes": 2207,
+      "sha256": "a67b5a0ddfb3bea6e5a6e88ef84f0c5e63c38711d3dd4db3093c5747ba62e9ef"
+    },
+    {
+      "path": "verification/final-build/final-library.log",
+      "bytes": 126399,
+      "sha256": "20ba6a5227030f54e7757a11d25f5fe7d4d27ee632f7d392f5baf838e1689681"
+    },
+    {
+      "path": "verification/final-build/module-order.txt",
+      "bytes": 6318,
+      "sha256": "1111a05cc3cbc15ca237af4473f1df1198d08ad3b5c7aab4c735e5a37be4a718"
+    },
+    {
+      "path": "verification/final-build/results.json",
+      "bytes": 13045,
+      "sha256": "2f2f6a8ddecd756b429eaeccb146dd79085f10b2ca534bc4d727cebb807ac7b6"
+    },
+    {
+      "path": "verification/final-build/source-manifest.json",
+      "bytes": 25392,
+      "sha256": "295e8c06a7093398e789c871ac8ece6fe22952cd1ce60eb052c4772a9731f9bf"
+    },
+    {
+      "path": "verification/fresh-build/001-TheoremA2.ScalarExtension.log",
+      "bytes": 302,
+      "sha256": "f0366db0c4e0415c26bbae8693ba7791bea13f931153c682a437ae8d8ede3b4c"
+    },
+    {
+      "path": "verification/fresh-build/002-BrascampLieb.ScalarExtension.log",
+      "bytes": 311,
+      "sha256": "e0fb4478e4c46be95c35ecb7fac078c59506a3267b425edd294618630393d109"
+    },
+    {
+      "path": "verification/fresh-build/003-BrascampLieb.BoxPenalty.log",
+      "bytes": 1180,
+      "sha256": "2771a23308efc62dff82de352acbc8da06aa0d9e4c4bea2e54225feccfca53a9"
+    },
+    {
+      "path": "verification/fresh-build/004-GinibrePoincare.Analysis.AlternativeBakryEmeryGibbsGenerator.log",
+      "bytes": 6245,
+      "sha256": "7e72613bd9f1f95b1f1270407c7beeff72be4fca7cfde0888c2a26a132927823"
+    },
+    {
+      "path": "verification/fresh-build/005-GinibrePoincare.Analysis.CorrespondenceBrascampLiebJets.log",
+      "bytes": 6895,
+      "sha256": "91510e4420b24eccf1bf38b7cb2cf92cf657570df0b9a505e5bee8481c71bfe9"
+    },
+    {
+      "path": "verification/fresh-build/006-GinibrePoincare.Analysis.CorrespondenceBrascampLiebAdjoint.log",
+      "bytes": 7385,
+      "sha256": "bc803cf509b5c8c837e654b8b3f15edad68fe9682d7213ad1a9d9fe4810d10f0"
+    },
+    {
+      "path": "verification/fresh-build/007-GinibrePoincare.Analysis.CorrespondenceBrascampLiebBochner.log",
+      "bytes": 7854,
+      "sha256": "d0455e2dbab399f9b229153770a94ae6ac4c3b85ae465a846352d00a49ae083e"
+    },
+    {
+      "path": "verification/fresh-build/008-GinibrePoincare.Analysis.CorrespondenceBrascampLiebBochnerIntegral.log",
+      "bytes": 8167,
+      "sha256": "159d98fbf56ee2e75dcc42cd8dd487183075fbe8e9d3afdc0f67b14890464f40"
+    },
+    {
+      "path": "verification/fresh-build/009-GinibrePoincare.Analysis.CorrespondenceBrascampLiebMatrix.log",
+      "bytes": 602,
+      "sha256": "008027eb09b51478c4487a29c563de5c1da8f6a2a87122c354ceaabeb71c2b41"
+    },
+    {
+      "path": "verification/fresh-build/010-GinibrePoincare.Analysis.CorrespondenceBrascampLiebHessian.log",
+      "bytes": 8723,
+      "sha256": "a3420eccafa8c777a486a075b4caec3cb95ba4fb60a7d4ff2fab626522984797"
+    },
+    {
+      "path": "verification/fresh-build/011-BrascampLieb.SeparableHessian.log",
+      "bytes": 15953,
+      "sha256": "3d8127105a10a25c57cbd2457b14e2aed99b7e138702605c5f607e1714306a5c"
+    },
+    {
+      "path": "verification/fresh-build/012-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCompactEnergy.log",
+      "bytes": 10419,
+      "sha256": "d06943d5e05225aca0182096b8776a2c642d3059b2931bcefd0dfacfea0beb2f"
+    },
+    {
+      "path": "verification/fresh-build/013-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityBessel.log",
+      "bytes": 2399,
+      "sha256": "12cdb197c85944aa6f046606ab356ea1db4dba4bcdad5da746e67715f826fe16"
+    },
+    {
+      "path": "verification/fresh-build/014-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityWeakDerivatives.log",
+      "bytes": 3148,
+      "sha256": "1b01a04327e7262de522412ea03deed33ead5de4f009c0e474b803856ac58d15"
+    },
+    {
+      "path": "verification/fresh-build/015-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityCompactTests.log",
+      "bytes": 3995,
+      "sha256": "5f6e1cdc707764fe20d747083c8ae603de04d7295a2f883002a76528626406f4"
+    },
+    {
+      "path": "verification/fresh-build/016-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityTemperedEquation.log",
+      "bytes": 4737,
+      "sha256": "bea71f03f0dd7c6a74f3a5f97e134b1b1c1c61d879e625b9faecaaab59542d92"
+    },
+    {
+      "path": "verification/fresh-build/017-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityCompactData.log",
+      "bytes": 5066,
+      "sha256": "34ac4d80633bd8e8a790af01b395f869e5f33866c2150bfe6930fb8435d9396d"
+    },
+    {
+      "path": "verification/fresh-build/018-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityProduct.log",
+      "bytes": 5364,
+      "sha256": "72585ece894ec963549153abae11a023582e782be0afcab00ee7c25fbfa6cbdf"
+    },
+    {
+      "path": "verification/fresh-build/019-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityLocalization.log",
+      "bytes": 5702,
+      "sha256": "f3bea0eb5e5fbddc28e0d633ad5d127bcb511f08ee3241b0b9fc5dee824797ff"
+    },
+    {
+      "path": "verification/fresh-build/020-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityLocalizedData.log",
+      "bytes": 6734,
+      "sha256": "8d0c1e43f7431b517e8c72520423c0420e4e4c9023d18e7d78fdb4ffe312ccb6"
+    },
+    {
+      "path": "verification/fresh-build/021-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRestrictedData.log",
+      "bytes": 7084,
+      "sha256": "5b978f657561fe5be487464aaff4af4f800c0be9c71b6ee1a9c2d22a4f1f8a48"
+    },
+    {
+      "path": "verification/fresh-build/022-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticDensity.log",
+      "bytes": 8591,
+      "sha256": "f2683b7dcb42f5ea2918efb4e8fdbb1d5c12296e55b004f08e79b05ee9cad919"
+    },
+    {
+      "path": "verification/fresh-build/023-GinibrePoincare.Analysis.CorrespondenceBrascampLiebGibbs.log",
+      "bytes": 19924,
+      "sha256": "dd6428ca4c8431a6762d327954b0f8382e21dfaafaaa44b2c4a310072479a77c"
+    },
+    {
+      "path": "verification/fresh-build/024-GinibrePoincare.Analysis.CorrespondenceBrascampLiebIntegralCS.log",
+      "bytes": 1111,
+      "sha256": "0cb3b062b248f834e15dd5b3f7d50aa847198e0a89c1743a91bb0b4a2edc1ed7"
+    },
+    {
+      "path": "verification/fresh-build/025-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCompactBound.log",
+      "bytes": 21460,
+      "sha256": "07d05afac4a6266de61c9e47fb389402a92101897ba8c9f49ddf5d75630bfc81"
+    },
+    {
+      "path": "verification/fresh-build/026-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCore.log",
+      "bytes": 23083,
+      "sha256": "088d1257e50e0945e37e4b208a1940eddf32ada1e83e948ed8d3f437f210711c"
+    },
+    {
+      "path": "verification/fresh-build/027-GinibrePoincare.Analysis.CorrespondenceBrascampLiebLinear.log",
+      "bytes": 23557,
+      "sha256": "65002afa75263974d5735eb786717675da6a7a3ba488601d02b54c42cdcfcc25"
+    },
+    {
+      "path": "verification/fresh-build/028-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCoreRange.log",
+      "bytes": 23840,
+      "sha256": "1c2e3cc7da973b748d4cbf12789cd410c931b9aa5665bc3875fe996c79092063"
+    },
+    {
+      "path": "verification/fresh-build/029-GinibrePoincare.Analysis.CorrespondenceBrascampLiebDuality.log",
+      "bytes": 589,
+      "sha256": "cd28c5466e305065bf92630a3b55d69bfb83c03b293decf4811a9d74fdee3456"
+    },
+    {
+      "path": "verification/fresh-build/030-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCoreDual.log",
+      "bytes": 23645,
+      "sha256": "f66bd1f7ec3aede94051c5fc077945a8445ce50678c83a50299f22a0a39d65d6"
+    },
+    {
+      "path": "verification/fresh-build/031-GinibrePoincare.Analysis.CorrespondenceBrascampLiebConstants.log",
+      "bytes": 24887,
+      "sha256": "2f421dc0e4f02a3d247129c42432be69c33992224cd9f47ee29b10d3b9581968"
+    },
+    {
+      "path": "verification/fresh-build/032-GinibrePoincare.Analysis.CorrespondenceBrascampLiebMass.log",
+      "bytes": 21534,
+      "sha256": "7246f7ad2ac6ff8a1e878efb3662876ce0e8f59a53224a2b727f80f65de667b8"
+    },
+    {
+      "path": "verification/fresh-build/033-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCenter.log",
+      "bytes": 27997,
+      "sha256": "2e583dbda7b77fb7000af2034a1334ca7dd8ef4c2263550eaffcf791e6b7b670"
+    },
+    {
+      "path": "verification/fresh-build/034-GinibrePoincare.Analysis.CorrespondenceBrascampLiebDensityGenerator.log",
+      "bytes": 20248,
+      "sha256": "72101beeb9dbd4eeab6046f39364c8fff503a57d620a41d6120d78d2d840c9da"
+    },
+    {
+      "path": "verification/fresh-build/035-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRealTests.log",
+      "bytes": 6262,
+      "sha256": "c819ab1e7acc2cbe92f1a9e497f0843b4bf0db12abe61fd7896aef6019ef5b7f"
+    },
+    {
+      "path": "verification/fresh-build/036-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRealIndicator.log",
+      "bytes": 7076,
+      "sha256": "40cd50b675c55eb07a9a640a089098fc2d81331e365a54434d282a52aa33ef2f"
+    },
+    {
+      "path": "verification/fresh-build/037-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityInterior.log",
+      "bytes": 7048,
+      "sha256": "4c45e91bfceb888ddb2d09cda19c47b16c52e8afd41948f38bc6c104cd8da8e5"
+    },
+    {
+      "path": "verification/fresh-build/038-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityRealDerivative.log",
+      "bytes": 7393,
+      "sha256": "2d3e16d20bfaf35916cbfef672b859025f41584f868895f0c07888adeaeefd1f"
+    },
+    {
+      "path": "verification/fresh-build/039-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticReal.log",
+      "bytes": 11237,
+      "sha256": "916d441df38d2dadb00dfe656fcfe94c2e6aa7f57168f2b1862ac38a5884d71d"
+    },
+    {
+      "path": "verification/fresh-build/040-GinibrePoincare.Analysis.GinibreTransitionAnalyticLocalRegularityTestIntegrability.log",
+      "bytes": 1205,
+      "sha256": "e3404d457429091441973223d67b37d3f7862242ba99d797723a854f0b252c92"
+    },
+    {
+      "path": "verification/fresh-build/041-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticEquation.log",
+      "bytes": 12767,
+      "sha256": "540f7db0d8000bc96111c3ed1bc36731f20177bb41467ef83d033bd7d7da0a61"
+    },
+    {
+      "path": "verification/fresh-build/042-GinibrePoincare.Concrete.Configuration.log",
+      "bytes": 341,
+      "sha256": "69a238f651f49f1d3fd92f457b19a166e3ad18f3cfc2f7ae75300478ab15d2ed"
+    },
+    {
+      "path": "verification/fresh-build/043-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticMollification.log",
+      "bytes": 1132,
+      "sha256": "963a4bd5a525ed23d652891531a8aeb0f67aea205d762451a36686992ba3059d"
+    },
+    {
+      "path": "verification/fresh-build/044-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticConvolution.log",
+      "bytes": 1450,
+      "sha256": "6a6dfec4428e8162ea12a8b8f00de97fc26959056d4ef317d12bc64e63eef96d"
+    },
+    {
+      "path": "verification/fresh-build/045-GinibrePoincare.Analysis.WeakDerivativeMollification.log",
+      "bytes": 383,
+      "sha256": "390b214337cc82031733fabcb7aa9d7d7d989c8dfd02542bd6d12208bb103e20"
+    },
+    {
+      "path": "verification/fresh-build/046-GinibrePoincare.Analysis.LipschitzMollification.log",
+      "bytes": 368,
+      "sha256": "d6b391a0a1eec10396f23ce92acef1d2fdb7d385be2ea58f0df47cf13b53ce62"
+    },
+    {
+      "path": "verification/fresh-build/047-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticC1Tests.log",
+      "bytes": 2219,
+      "sha256": "9c92fb24ebe0bbd8b02d41c011f2034e8ae65b4c555e5d3ca4422a6ef95c9d74"
+    },
+    {
+      "path": "verification/fresh-build/048-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticProduct.log",
+      "bytes": 3430,
+      "sha256": "8a443c372f2f4d1aab00c26aafa0647648d717e1b95e4393576acabd2b2ca814"
+    },
+    {
+      "path": "verification/fresh-build/049-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticDivision.log",
+      "bytes": 12371,
+      "sha256": "5d90b579e87fadd48d9c9dec1bf655df5fd162af83d3dd446d5f84f08ef61bcd"
+    },
+    {
+      "path": "verification/fresh-build/050-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticLocalSobolev.log",
+      "bytes": 16862,
+      "sha256": "49899721b6969b304b13d989514bd83b60e44ea9c0144864c6f6bc0c793f45a3"
+    },
+    {
+      "path": "verification/fresh-build/051-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticGreen.log",
+      "bytes": 18280,
+      "sha256": "5b434bd0352d87be02e3a30ce38147c18936075957ede1360b2a2bea4427ac45"
+    },
+    {
+      "path": "verification/fresh-build/052-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticSobolevApproximation.log",
+      "bytes": 2802,
+      "sha256": "aac43f06f13d1f510df0fa6d1b7b9bcec705847d223ab115f97039835e67ea43"
+    },
+    {
+      "path": "verification/fresh-build/053-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticFormTesting.log",
+      "bytes": 3081,
+      "sha256": "214b914e079ab3ad89fff21162c27bf284b5fcd5e4828133221de24e0af5a217"
+    },
+    {
+      "path": "verification/fresh-build/054-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticCutoffGradient.log",
+      "bytes": 17174,
+      "sha256": "1928d78e209cfce96979aa37e18fb3a730c50dc7e44327b5e7faadef6223ebb1"
+    },
+    {
+      "path": "verification/fresh-build/055-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticCutoffForm.log",
+      "bytes": 20677,
+      "sha256": "8838455d032d274fabe75269b945916a65ffd997c410a294786de862f1506ac5"
+    },
+    {
+      "path": "verification/fresh-build/056-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticCutoffEnergy.log",
+      "bytes": 20995,
+      "sha256": "d7695fbc3003d3ea02933342ebb851e85f99c0c9ec2e7ed09591213f48c365b3"
+    },
+    {
+      "path": "verification/fresh-build/057-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticZeroGradient.log",
+      "bytes": 2540,
+      "sha256": "f9d5f84e7780170e7f75f9b67f7eed09de6a3d0db06aea5e2cf675770d3131a1"
+    },
+    {
+      "path": "verification/fresh-build/058-GinibrePoincare.Analysis.CorrespondenceBrascampLiebCutoffs.log",
+      "bytes": 7602,
+      "sha256": "d221503f5026dab755d0208d2db426d4f409a62f98f4a3344004b368463510f9"
+    },
+    {
+      "path": "verification/fresh-build/059-GinibrePoincare.Analysis.CorrespondenceWeightedEllipticLiouville.log",
+      "bytes": 29183,
+      "sha256": "ece748962295fe65b0d7f1c3ee73ee22c7679e5eda4d4a6475d5452be6e7b0b6"
+    },
+    {
+      "path": "verification/fresh-build/060-GinibrePoincare.Analysis.CorrespondenceBrascampLiebDense.log",
+      "bytes": 43269,
+      "sha256": "efefb2cb8069ae43d87e897e3431924d8f2a10622ee6551017edd988a707a85f"
+    },
+    {
+      "path": "verification/fresh-build/061-GinibrePoincare.Analysis.CorrespondenceBrascampLieb.log",
+      "bytes": 44091,
+      "sha256": "d15e0a0d02ece49e4db0f0b3f0ca9a7286b8bdc20a9ea363cdec4326cf586554"
+    },
+    {
+      "path": "verification/fresh-build/062-BrascampLieb.WeightedLimit.log",
+      "bytes": 45629,
+      "sha256": "994c7a43af77dca3f59c8718e13b8fe6997100f94dfb6adeec0043db2569c60e"
+    },
+    {
+      "path": "verification/fresh-build/063-BrascampLieb.BoxVariance.log",
+      "bytes": 54767,
+      "sha256": "079fb30acc1c2fbd4210275756ccda67df947dfd6b16b2f6159e7cb62749fa57"
+    },
+    {
+      "path": "verification/fresh-build/064-BrascampLieb.CosineExtension.log",
+      "bytes": 989,
+      "sha256": "e3808fe0511a1a3393a1ab0c67922ef703bdcf66ff0ede52cda7ddde42a8b3c3"
+    },
+    {
+      "path": "verification/fresh-build/065-BrascampLieb.CosineApproximation.log",
+      "bytes": 1662,
+      "sha256": "608085585aa9808a711d89ec82721079a91ddb1e09b28fd590366362b990e6cd"
+    },
+    {
+      "path": "verification/fresh-build/066-BrascampLieb.GaussianDomination.log",
+      "bytes": 1337,
+      "sha256": "ace63f4339129e1142bd612b3a60904c153ea5efc403cfa10ea809e26f83ba4a"
+    },
+    {
+      "path": "verification/fresh-build/067-BrascampLieb.NormalizedVariance.log",
+      "bytes": 56242,
+      "sha256": "d96b4e1ee58fe72e0e1b7b2e6ddb202244cacf4f21e31ded957222b91a0b0ce2"
+    },
+    {
+      "path": "verification/fresh-build/068-TheoremA2.Imports.log",
+      "bytes": 278,
+      "sha256": "cd02499f3ca8ff2a7ae4eae55ed59db102a61ad66fefdb3c3f49e20b64e90b36"
+    },
+    {
+      "path": "verification/fresh-build/069-TheoremA2.Basic.log",
+      "bytes": 272,
+      "sha256": "1bc633790b079146e116db852e57066804ff1fa98075c64bcb7e311e74c63717"
+    },
+    {
+      "path": "verification/fresh-build/070-TheoremA2.SecondMoment.log",
+      "bytes": 293,
+      "sha256": "37282b4b5cf2ece2be9deb9b193ab38cbc4a884e109254773cab0c35d4ccc814"
+    },
+    {
+      "path": "verification/fresh-build/071-TheoremA2.Normalizer.log",
+      "bytes": 287,
+      "sha256": "65a9a8ba37fd1a960c2373dc9b826b355b65dd72ff9eac80325ff02a28fa05d1"
+    },
+    {
+      "path": "verification/fresh-build/072-TheoremA2.CosineReference.log",
+      "bytes": 302,
+      "sha256": "700573b32de67a98df0fa592191c59467c137fa2e5bf0094c717b49eec30946e"
+    },
+    {
+      "path": "verification/fresh-build/073-TheoremA2.ScalarGaussianBounds.log",
+      "bytes": 317,
+      "sha256": "a8e0617d0f335203326f65e505bc46e335e88a80038e795c8a43715372319659"
+    },
+    {
+      "path": "verification/fresh-build/074-TheoremA2.CosineReferenceBounds.log",
+      "bytes": 1322,
+      "sha256": "e8d6b9ac3603b6d255d2111ab2d1eedb0264b83583d384cb9848122c89cd554f"
+    },
+    {
+      "path": "verification/fresh-build/075-TheoremA2.Parameters.log",
+      "bytes": 287,
+      "sha256": "4cb21f9fc6acfe9731009eda12bf343e2cc8c2fcbf5ea19bc8ce9cee4c75dc43"
+    },
+    {
+      "path": "verification/fresh-build/076-TheoremA2.PeriodicCells.log",
+      "bytes": 1355,
+      "sha256": "2874305184d4780f8c3e475beef308868bde472959b6c787a1fa13259e7d836b"
+    },
+    {
+      "path": "verification/fresh-build/077-TheoremA2.ConvexSupport.log",
+      "bytes": 1142,
+      "sha256": "12a6ae77a1ad94359431e8e8b2d1488a4b83a6caaec8797dad8ffd7ff5f6a846"
+    },
+    {
+      "path": "verification/fresh-build/078-TheoremA2.PrincipalInverse.log",
+      "bytes": 3872,
+      "sha256": "1df6ac9332a7697ec8b6b3a2411527b82257adbdff9911141e1e2d55ca8f7a34"
+    },
+    {
+      "path": "verification/fresh-build/079-TheoremA2.JointPrecisionAlgebra.log",
+      "bytes": 5210,
+      "sha256": "283fb804e51c6601ae0a74800d69c3d5ab1c8be4d1b3113bde6d86546d5d46e5"
+    },
+    {
+      "path": "verification/fresh-build/080-TheoremA2.FiniteExponential.log",
+      "bytes": 3339,
+      "sha256": "cb1ffa2b107d1f037625defef249a0122b5a987e30804027d60006e58cf8401a"
+    },
+    {
+      "path": "verification/fresh-build/081-TheoremA2.TiltedMGF.log",
+      "bytes": 284,
+      "sha256": "1f599936fa557045c3b51c1bd6f037929ecb21d171d934d79d5701bdd2d66762"
+    },
+    {
+      "path": "verification/fresh-build/082-TheoremA2.JointReference.log",
+      "bytes": 9172,
+      "sha256": "ffa26291c0bb8d35af09feaa56701f1ea1f7f680177a2b579bfde2adde39cf17"
+    },
+    {
+      "path": "verification/fresh-build/083-TheoremA2.SpinCovarianceBasic.log",
+      "bytes": 3933,
+      "sha256": "ed7520bf8407ffc27b632bf39a4c7893e9ac1b18523ba0730f94e56b0f3a59a0"
+    },
+    {
+      "path": "verification/fresh-build/084-TheoremA2.SpinCovarianceMoments.log",
+      "bytes": 3939,
+      "sha256": "09a18b843620a521bed09db7cc18afdfbbb28e31f27627f1545fada44f6bdf90"
+    },
+    {
+      "path": "verification/fresh-build/085-TheoremA2.JointMarginalDifferential.log",
+      "bytes": 9681,
+      "sha256": "df70ea857dfa0b5088675c95321373e24acb03afee14a36a2dab944dee70b2d0"
+    },
+    {
+      "path": "verification/fresh-build/086-TheoremA2.JointMarginalPotential.log",
+      "bytes": 15231,
+      "sha256": "c563e35cb9f1992cb8f6ab66f8279c9ccb1d32102377f97a8892b6e0a5765bc1"
+    },
+    {
+      "path": "verification/fresh-build/087-TheoremA2.JointMarginalBounds.log",
+      "bytes": 10094,
+      "sha256": "c50f032533eba2cfca481fbd805cf7a3fbb9c02786beb98cfaf7e42b4c55efd5"
+    },
+    {
+      "path": "verification/fresh-build/088-TheoremA2.JointMarginalIntegrability.log",
+      "bytes": 16800,
+      "sha256": "4a65623cec9b2e1032c6fef8bb677bbd282b9f3dd835414a11c11d8dde89cdc9"
+    },
+    {
+      "path": "verification/fresh-build/089-TheoremA2.FiniteContinuousMixture.log",
+      "bytes": 6854,
+      "sha256": "1ed6ee5e1d100f26d76d242781d3318e687f99dc1553173c9c0a7155c2f5d246"
+    },
+    {
+      "path": "verification/fresh-build/090-TheoremA2.JointCovarianceSmooth.log",
+      "bytes": 62940,
+      "sha256": "a1785236943a1c1d45a7c3abba38c714820823e6a5980269d9abbb51e9eceb11"
+    },
+    {
+      "path": "verification/fresh-build/091-TheoremA2.JointReferenceTilt.log",
+      "bytes": 10651,
+      "sha256": "cecd8817e1254c13941da99dc86fb4c9edcb54f27e6fc2a4e8b1a8931562c9c4"
+    },
+    {
+      "path": "verification/fresh-build/092-TheoremA2.JointPriorApproximation.log",
+      "bytes": 20065,
+      "sha256": "93dc0b9e0dc9dbc237521315d8bac355eb81b94be28141cb9ef178ecae8b2c68"
+    },
+    {
+      "path": "verification/fresh-build/093-TheoremA2.JointCovariance.log",
+      "bytes": 66606,
+      "sha256": "4a4a2ec9693ca9fdf4a6473ee5367965beac6400b785beb9dadbe7f67f43d91b"
+    },
+    {
+      "path": "verification/fresh-build/094-TheoremA2.ConvexSupportMeasure.log",
+      "bytes": 1612,
+      "sha256": "65a7763b3e0912af15bc977a1ab2b72e49e539c4d711dc0c8656ea115647c0c6"
+    },
+    {
+      "path": "verification/fresh-build/095-TheoremA2.ConvexSupportMatrix.log",
+      "bytes": 1665,
+      "sha256": "5df505132f73cbfa4daf71b53b64e2bc509c7c3cbe40392aaf60b3f241b1db9f"
+    },
+    {
+      "path": "verification/fresh-build/096-TheoremA2.PaddedDecoder.log",
+      "bytes": 296,
+      "sha256": "708fa2c19153e2eb13ef45b0e6b6418293aaf2bda9004eab7c0e697e45d9ac3d"
+    },
+    {
+      "path": "verification/fresh-build/097-TheoremA2.GaussianTail.log",
+      "bytes": 293,
+      "sha256": "1d1bff79989c34fc5c3dc82b90615969d386702b3da6f591ba47a25d94145e52"
+    },
+    {
+      "path": "verification/fresh-build/098-TheoremA2.PaddedDecoderGaussian.log",
+      "bytes": 320,
+      "sha256": "1f94d9eccd363b69ed210567d289f431d649ec82605947d35980db5e27c8dc78"
+    },
+    {
+      "path": "verification/fresh-build/099-TheoremA2.DecoderProduct.log",
+      "bytes": 299,
+      "sha256": "231b003717674957af3437d41baf3347cd4e5a966b0fa8e25d691874a2e98e5f"
+    },
+    {
+      "path": "verification/fresh-build/100-TheoremA2.GaussianShift.log",
+      "bytes": 2754,
+      "sha256": "2caea1487034a22e2a13c27b1bc21fcc689b0b6fffa032df029782a0a4fde952"
+    },
+    {
+      "path": "verification/fresh-build/101-TheoremA2.LatticeEnergy.log",
+      "bytes": 3191,
+      "sha256": "dbe0b6af8e665b27fe390581c226333dcf1f136b5421da9cc55137f5be307c80"
+    },
+    {
+      "path": "verification/fresh-build/102-TheoremA2.CellEnergyComparison.log",
+      "bytes": 9974,
+      "sha256": "4599e6f204204918e169da88092554818a580b6bd35026b9070ed974947a4e99"
+    },
+    {
+      "path": "verification/fresh-build/103-TheoremA2.JointCellIdentity.log",
+      "bytes": 12938,
+      "sha256": "05ae2541bbb05cf6e4788d943adfacebf44fff9867471ae79f54a8a39cf0f7a7"
+    },
+    {
+      "path": "verification/fresh-build/104-TheoremA2.WeightedTail.log",
+      "bytes": 1352,
+      "sha256": "ce36e96250d87332508f3710308c29929963638bd7fc8644ddf2113320729897"
+    },
+    {
+      "path": "verification/fresh-build/105-TheoremA2.JointComparison.log",
+      "bytes": 12932,
+      "sha256": "3f60e8f62df51138221398054f29427625e5b32a875f6e0e7648cec3a8277114"
+    },
+    {
+      "path": "verification/fresh-build/106-TheoremA2.Characteristic.log",
+      "bytes": 299,
+      "sha256": "2d349a5d8a28243274221a95fceca46702426a90ecfa554c6dabeee393b4dd24"
+    },
+    {
+      "path": "verification/fresh-build/107-TheoremA2.Target.log",
+      "bytes": 275,
+      "sha256": "10f2f28e6cf621dd3690b661be625273ac093058bc527f06abfce03cf5194c05"
+    },
+    {
+      "path": "verification/fresh-build/108-TheoremA2.ScaledMatrix.log",
+      "bytes": 293,
+      "sha256": "9fc402a40aafe394ccf2979de80303b3088763ec18d194af462d282445e3cfc7"
+    },
+    {
+      "path": "verification/fresh-build/109-TheoremA2.ConcreteReduction.log",
+      "bytes": 308,
+      "sha256": "4ce9bfc0c076ccbe6f11b52d64c0715ef89520c0ec9de681b924383ca6160cb8"
+    },
+    {
+      "path": "verification/fresh-build/110-TheoremA2.JointFinalReduction.log",
+      "bytes": 70376,
+      "sha256": "f2a2c6c44b75d7775dfbbd1dc90308b090bce9d3895d7da576912979459d14f5"
+    },
+    {
+      "path": "verification/fresh-build/111-TheoremA2.CosineEnvelope.log",
+      "bytes": 299,
+      "sha256": "fba2e1e62172db65bb44d58c10048b304ce02bf02ed1471e9bc0895c81b55d34"
+    },
+    {
+      "path": "verification/fresh-build/112-TheoremA2.SpinCovarianceConditional.log",
+      "bytes": 3951,
+      "sha256": "00ad22191a70c89b911524ce64608c821edd905170246a296d1b46d563edf228"
+    },
+    {
+      "path": "verification/fresh-build/113-TheoremA2.SpinCovarianceAllField.log",
+      "bytes": 4659,
+      "sha256": "b4d5b0d5c3c62a12a7d14988cd465dbf1c9d41846dec42c6bdff25e32f139f8f"
+    },
+    {
+      "path": "verification/fresh-build/114-TheoremA2.SpinCovarianceParameters.log",
+      "bytes": 4723,
+      "sha256": "213dfa61abc378e18baff1b3929e5b6b66f03b941917785cc409bcb9876ba0e8"
+    },
+    {
+      "path": "verification/fresh-build/115-TheoremA2.SpinCovarianceNumerics.log",
+      "bytes": 4717,
+      "sha256": "d23c059f5aba57fb76dec13dd10dc352456ee174c2e700f14c30efaf9cddc717"
+    },
+    {
+      "path": "verification/fresh-build/116-TheoremA2.SpinCovarianceSpectral.log",
+      "bytes": 5138,
+      "sha256": "d22bb0fcf0b68431ddd34d4ab6ae02b8951b77f49b90a154dfa7dfa712d832f8"
+    },
+    {
+      "path": "verification/fresh-build/117-TheoremA2.GaussianCovarianceBasic.log",
+      "bytes": 7304,
+      "sha256": "c49587434ac7828cd65ec1ea8ec2247457da586f6c5cf7bb1637e0ea287ce787"
+    },
+    {
+      "path": "verification/fresh-build/118-TheoremA2.GaussianCovarianceDensity.log",
+      "bytes": 8664,
+      "sha256": "ba315be9e84aec866a7339e8ef2f4321692617e7c48844d65eb770d5952a2e66"
+    },
+    {
+      "path": "verification/fresh-build/119-TheoremA2.GaussianCovarianceTranslation.log",
+      "bytes": 9170,
+      "sha256": "6d4ed74539b9266df1ef1288adeb304333192d3c2c8ca13f3a64ca73e845c52e"
+    },
+    {
+      "path": "verification/fresh-build/120-TheoremA2.GaussianEnvelopeLaw.log",
+      "bytes": 12228,
+      "sha256": "82f2dce9a3d538df30975e5aa0ed028ab4473f5bb88d1dc0dde320d90e4dac97"
+    },
+    {
+      "path": "verification/fresh-build/121-TheoremA2.GaussianEnvelopeBox.log",
+      "bytes": 15104,
+      "sha256": "813ed7fac56adf84d6eb4d8e1f118a6bdf358e5902d248f056f11a6666740e2f"
+    },
+    {
+      "path": "verification/fresh-build/122-TheoremA2.GaussianEnvelopeCells.log",
+      "bytes": 19272,
+      "sha256": "0a609b156240debf206a215fb96e58e1060db92076dfdac57a7b1f4d7337250b"
+    },
+    {
+      "path": "verification/fresh-build/123-TheoremA2.GaussianEnvelopeEuclidean.log",
+      "bytes": 12301,
+      "sha256": "6b077352828c46ac47d84eae8534f7848529460ad68c5dbf31c5cab8f95a155c"
+    },
+    {
+      "path": "verification/fresh-build/124-TheoremA2.GaussianEnvelopePeriods.log",
+      "bytes": 18176,
+      "sha256": "ce883c1c7ecf8b521098c50e9b62880bb45fa8feaa3bb0760737494f1132446d"
+    },
+    {
+      "path": "verification/fresh-build/125-TheoremA2.GaussianFourierMoments.log",
+      "bytes": 7753,
+      "sha256": "0d3a6f486ada6ed664dd692440fe886f034644869cf7b029b6edbd05eb326f2a"
+    },
+    {
+      "path": "verification/fresh-build/126-TheoremA2.GaussianFourierProduct.log",
+      "bytes": 12763,
+      "sha256": "3be1657281a94b9f867314b0089a7f38d9632ee02706f42a13f3d58f43d70402"
+    },
+    {
+      "path": "verification/fresh-build/127-TheoremA2.GaussianFourierQuadratic.log",
+      "bytes": 13255,
+      "sha256": "412cb86731e0bece56e173dff0a2161a9b3bc85e380c6591f3562aaa2c41782a"
+    },
+    {
+      "path": "verification/fresh-build/128-TheoremA2.GaussianSpinFourier.log",
+      "bytes": 14061,
+      "sha256": "65f9d2de16aa066ff851c228b41713abaf9068e15cbbc6c8cc211c7934be38de"
+    },
+    {
+      "path": "verification/fresh-build/129-TheoremA2.GaussianPolynomial.log",
+      "bytes": 15411,
+      "sha256": "c334bf41ca62894c267498f809deb1a6548200dcce72586633cace3f67cffb90"
+    },
+    {
+      "path": "verification/fresh-build/130-TheoremA2.GaussianEnvelopePointwise.log",
+      "bytes": 26641,
+      "sha256": "09700f32ebc9fdefbe8bb90c8c3504ca7e0c170c511f07390df82821a56acd06"
+    },
+    {
+      "path": "verification/fresh-build/131-TheoremA2.GaussianEnvelopeTail.log",
+      "bytes": 18351,
+      "sha256": "fc32745ed573c4f053e9c60fbd11127e27428d3a8b5d679de5247d9dd40c8f0b"
+    },
+    {
+      "path": "verification/fresh-build/132-TheoremA2.GaussianRankOne.log",
+      "bytes": 21857,
+      "sha256": "74e3def726750ed002e49a903e098bd051bbf4ef721f0eec73499b4f5d1e3528"
+    },
+    {
+      "path": "verification/fresh-build/133-TheoremA2.GaussianSquareMGF.log",
+      "bytes": 22690,
+      "sha256": "47cb34cc8a0a1644477332f9179cffa0b23ebbad004b15d9d217fc117ab2c704"
+    },
+    {
+      "path": "verification/fresh-build/134-TheoremA2.GaussianRelativeAlgebra.log",
+      "bytes": 4720,
+      "sha256": "bd70f8cdf73b13598a026a6d9c810454da8131c8bb43a30d259f6aed60759578"
+    },
+    {
+      "path": "verification/fresh-build/135-TheoremA2.GaussianEnvelopeRelative.log",
+      "bytes": 35484,
+      "sha256": "4c64109580d4ec9132546f6303947a62ebe4fa8f001d3db54c65473fa1761fa9"
+    },
+    {
+      "path": "verification/fresh-build/136-TheoremA2.GaussianDomination.log",
+      "bytes": 1385,
+      "sha256": "eaad8d1525c225a9c71420c90c0c1e5e7c325a0fd556c949a5427def71924403"
+    },
+    {
+      "path": "verification/fresh-build/137-TheoremA2.CramerRaoCore.log",
+      "bytes": 3975,
+      "sha256": "8de2e264618ace3e851cbff042a47c56434852f08527f463edc177a36b41f725"
+    },
+    {
+      "path": "verification/fresh-build/138-TheoremA2.EnvelopeCramerRao.log",
+      "bytes": 20331,
+      "sha256": "84b1ca54c27f8db7378bff57abc8a467841f75cad465f02c5d560ed0c5480457"
+    },
+    {
+      "path": "verification/fresh-build/139-TheoremA2.GaussianEnvelopeDifferential.log",
+      "bytes": 80958,
+      "sha256": "2a40ef57efb8275c5222bc55c90199302410036e1149f2aab00b440e99d49bda"
+    },
+    {
+      "path": "verification/fresh-build/140-TheoremA2.GaussianEnvelopeBoxEuclidean.log",
+      "bytes": 70763,
+      "sha256": "8b749bfc95f76edacbcc5620b80b26fcc35344cb296a1bdfd2b778fab13e4f76"
+    },
+    {
+      "path": "verification/fresh-build/141-TheoremA2.GaussianEnvelopeBL.log",
+      "bytes": 88715,
+      "sha256": "26d3a950aa63bfe523aabb31528b913c03e8d0545d41167b60be04e4ded4aec0"
+    },
+    {
+      "path": "verification/fresh-build/142-TheoremA2.GaussianResolvent.log",
+      "bytes": 3927,
+      "sha256": "d4c3acfee7339e1fddc0d3ef82c176d297ebb7acc473e54e03c494ae7a450a40"
+    },
+    {
+      "path": "verification/fresh-build/143-TheoremA2.GaussianEnvelopeComparison.log",
+      "bytes": 109113,
+      "sha256": "76ca57738324884fdf0a29993f8e0c2b377018853ba50e082d2277525a659c69"
+    },
+    {
+      "path": "verification/fresh-build/144-TheoremA2.SpinCovarianceTheorems.log",
+      "bytes": 110912,
+      "sha256": "65c346fd86100bf48d89854b18464a9a8baa83720f64b82b9d6f795790329bc6"
+    },
+    {
+      "path": "verification/fresh-build/145-TheoremA2.UniformPositivity.log",
+      "bytes": 126489,
+      "sha256": "892f8ae24c92700565e2b3d8eca015d728cf657f9428a5ba837d715e170b5efa"
+    },
+    {
+      "path": "verification/fresh-build/146-TheoremA2.log",
+      "bytes": 126435,
+      "sha256": "2d92e1f7ea4f397037843ea44192c90e0c75eb8a478d019ce733d67e652972a1"
+    },
+    {
+      "path": "verification/fresh-build/SUCCESS.txt",
+      "bytes": 189,
+      "sha256": "7989c71db886056da25f1f40d98c9a19d7c266f600baf8926d3a7d9a5bff5b4e"
+    },
+    {
+      "path": "verification/fresh-build/aggregate.log",
+      "bytes": 2384599,
+      "sha256": "85a4134544d9f938916a2b3d25bc97e7d49403cc9cc61fc387c6c3520eb9ad7e"
+    },
+    {
+      "path": "verification/fresh-build/final-audit.log",
+      "bytes": 2207,
+      "sha256": "7f1d506377d194f8873fc1098f164ba029afd8d0fb851b292ccb5976c7542927"
+    },
+    {
+      "path": "verification/fresh-build/final-library.log",
+      "bytes": 126399,
+      "sha256": "63608a997a8d2a343c78903a4b02de48eef1f2d5bdb34b7c9825f8232cdf75b1"
+    },
+    {
+      "path": "verification/fresh-build/module-order.txt",
+      "bytes": 6318,
+      "sha256": "1111a05cc3cbc15ca237af4473f1df1198d08ad3b5c7aab4c735e5a37be4a718"
+    },
+    {
+      "path": "verification/fresh-build/results.json",
+      "bytes": 13045,
+      "sha256": "2f2f6a8ddecd756b429eaeccb146dd79085f10b2ca534bc4d727cebb807ac7b6"
+    },
+    {
+      "path": "verification/fresh-build/source-manifest.json",
+      "bytes": 25392,
+      "sha256": "047324af8eefbf56c4fab2c710d24edd85b96bdec121d018950087261a161138"
+    },
+    {
+      "path": "verify.sh",
+      "bytes": 326,
+      "sha256": "54224b86e653f014edc6a0ec32ebc0fcc1e7a4d2df4c7a727463e071294fa200"
+    }
+  ]
+}
