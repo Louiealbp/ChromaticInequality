@@ -1,17 +1,13 @@
-# Theorem A.2: unrestricted uniform positivity
+# Theorem 8.2: unrestricted uniform positivity
 
 **Verified release:** all 146 local proof modules were rebuilt from source.
 The complete library build and the strengthened 1,890-theorem axiom and
 statement audit passed. `VERIFICATION.md` records the results; the complete
 command logs and source hashes are included under `verification/`.
 
-This Lean project formalizes Theorem A.2 of *The Complexity of Deterministic
+This Lean project formalizes Theorem 8.2 of *The Complexity of Deterministic
 Connectivity*, by Sanjeev Khanna, Aaron Putterman, and Madhu Sudan, in the
-uploaded draft dated October 21, 2026. The theorem appears on printed page 45;
-the final parameter substitution is on printed page 89. The source PDF has
-SHA-256
-`1b13f1bad453e1a8acc40a88cf61c4f06246194c295b7d69d431149ed6b2c4eb`.
-
+uploaded draft dated October 21, 2026. 
 ## Exact theorem
 
 For every positive integer `k` and every real `k × k` matrix `S` whose entries
