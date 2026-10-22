@@ -2,8 +2,7 @@
 
 **Verified release:** all 146 local proof modules were rebuilt from source.
 The complete library build and the strengthened 1,890-theorem axiom and
-statement audit passed. `VERIFICATION.md` records the results; the complete
-command logs and source hashes are included under `verification/`.
+statement audit passed. `VERIFICATION.md` records the results.
 
 This Lean project formalizes Theorem 8.2 of *The Complexity of Deterministic
 Connectivity*, by Sanjeev Khanna, Aaron Putterman, and Madhu Sudan, in the
